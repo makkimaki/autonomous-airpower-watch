@@ -18,10 +18,12 @@ STATUSES = {
 }
 SOURCE_TYPES = {"government", "military", "research", "company", "media"}
 CONFIDENCE = {"primary", "secondary"}
+CITATION_SCAN = {"not-scanned", "partial", "scanned", "unavailable"}
+CITATION_TYPES = {"source", "reference", "related", "self"}
 ARRAY_FIELDS = {"countries", "domains", "organizations", "companies", "programs", "aircraft", "models", "simulators", "topics"}
 REQUIRED = {
     "id", "title", "date", "url", "source", "source_type", *ARRAY_FIELDS,
-    "status", "summary_ja", "confidence",
+    "status", "summary_ja", "confidence", "collected_at", "citation_scan_status", "citations",
 }
 problems = []
 
@@ -55,11 +57,15 @@ for i, item in enumerate(news):
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}-[a-z0-9-]+", item["id"]):
         problems.append(f"[{label}] id形式が不正")
     try:
-        parsed = date.fromisoformat(item["date"])
+        date.fromisoformat(item["date"])
         if not item["id"].startswith(item["date"]):
             problems.append(f"[{label}] idとdateが不一致")
     except ValueError:
         problems.append(f"[{label}] date形式が不正: {item['date']}")
+    try:
+        date.fromisoformat(item["collected_at"])
+    except ValueError:
+        problems.append(f"[{label}] collected_at形式が不正: {item['collected_at']}")
     if not item["url"].startswith(("https://", "http://")):
         problems.append(f"[{label}] URLがHTTP(S)ではない")
     if item["status"] not in STATUSES:
@@ -68,6 +74,24 @@ for i, item in enumerate(news):
         problems.append(f"[{label}] source_typeが不正: {item['source_type']}")
     if item["confidence"] not in CONFIDENCE:
         problems.append(f"[{label}] confidenceが不正: {item['confidence']}")
+    if item["citation_scan_status"] not in CITATION_SCAN:
+        problems.append(f"[{label}] citation_scan_statusが不正: {item['citation_scan_status']}")
+    if not isinstance(item["citations"], list):
+        problems.append(f"[{label}] citationsは配列でなければならない")
+    else:
+        citation_urls = Counter()
+        for citation in item["citations"]:
+            if not isinstance(citation, dict) or not {"url", "title", "type"} <= set(citation):
+                problems.append(f"[{label}] citationの必須キー不足")
+                continue
+            if not citation["url"].startswith(("https://", "http://")):
+                problems.append(f"[{label}] citation URLがHTTP(S)ではない")
+            if citation["type"] not in CITATION_TYPES:
+                problems.append(f"[{label}] citation typeが不正: {citation['type']}")
+            citation_urls[norm_url(citation["url"])] += 1
+        for citation_url, count in citation_urls.items():
+            if count > 1:
+                problems.append(f"[{label}] citation URL重複: {citation_url}")
     for field in ARRAY_FIELDS:
         if not isinstance(item[field], list) or any(not isinstance(x, str) or not x.strip() for x in item[field]):
             problems.append(f"[{label}] {field}は空でない文字列の配列でなければならない")
@@ -97,7 +121,7 @@ for value, count in source_ids.items():
     if value and count > 1:
         problems.append(f"[情報源id重複] {value} ×{count}")
 
-expected = {"recent.md", "programs.md", "companies.md", "aircraft.md", "topics.md", "world-models.md", "simulators.md", "sources.md", "search.json", "graph.json"}
+expected = {"recent.md", "programs.md", "companies.md", "aircraft.md", "topics.md", "world-models.md", "simulators.md", "sources.md", "search.json", "graph.json", "weekly.json", "citation-graph.json", "weekly.md", "citations.md"}
 missing_outputs = sorted(x for x in expected if not os.path.exists(os.path.join(DOCS, x)))
 if missing_outputs:
     problems.append(f"[生成物不足] {', '.join(missing_outputs)}")

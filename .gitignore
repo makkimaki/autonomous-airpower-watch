@@ -1,6 +1,8 @@
 # ビルド時に tools/ のスクリプトが生成する
 docs/search.json
 docs/graph.json
+docs/weekly.json
+docs/citation-graph.json
 _site/
 __pycache__/
 *.pyc

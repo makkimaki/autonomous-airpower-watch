@@ -5,7 +5,7 @@
 ## データ層
 
 - `data/sources.json`: 定期巡回する公開情報源
-- `data/news.json`: 掲載するニュースの正規化済みメタデータ
+- `data/news.json`: 掲載するニュース、収集日、本文中の引用・参照リンクを含む正規化済みメタデータ
 - `docs/*.md`: `tools/build_site.py`が生成する閲覧ページ
 - `docs/wiki/log.md`: 収集・構成変更・検査の記録
 
@@ -28,11 +28,15 @@
 各要素は次のキーを必須とします。
 
 - `id`: `YYYY-MM-DD-slug`形式の一意な識別子
-- `title`, `date`, `url`, `source`, `source_type`
+- `title`, `date`, `collected_at`, `url`, `source`, `source_type`
 - `countries`, `domains`, `organizations`, `companies`, `programs`, `aircraft`, `models`, `simulators`, `topics`: 文字列配列
 - `status`: 開発・調達段階
 - `summary_ja`: 原文を確認して書いた1〜2文の独自注釈
 - `confidence`: `primary`または`secondary`
+- `citation_scan_status`: `not-scanned`、`partial`、`scanned`、`unavailable`
+- `citations`: 記事本文で確認できた参照リンクの配列。各要素は`url`、`title`、`type`を持つ
+
+`citations[].type`は`source`（根拠・出典）、`reference`（背景・技術資料）、`related`（関連記事）、`self`（同一サイト内）から選びます。ナビゲーション、広告、SNS共有、製品ページへの単なる導線は含めません。
 
 `status`は原則として次から選びます。
 
@@ -46,9 +50,11 @@
 4. 発表日と出来事の発生日を混同しません。`date`は原則として発表日です。
 5. 発表、選定、契約、試験、量産、配備を区別します。
 6. 一次情報にない性能、意図、実戦能力を推測しません。
-7. `summary_ja`は短い独自表現とし、本文を転載しません。
-8. `python3 tools/build_site.py`と`python3 tools/verify_wiki.py`を実行します。
-9. `docs/wiki/log.md`へ取り込み件数と対象期間を記録します。
+7. `collected_at`にWikiへ追加した日を記録します。
+8. 記事本文の引用・参照を確認し、調査状態と`citations`を記録します。取得不能なら`unavailable`、一部だけ確認できた場合は`partial`にします。
+9. `summary_ja`は短い独自表現とし、本文を転載しません。
+10. `python3 tools/build_site.py`と`python3 tools/verify_wiki.py`を実行します。
+11. `docs/wiki/log.md`へ取り込み件数と対象期間を記録します。
 
 ## 情報源の扱い
 

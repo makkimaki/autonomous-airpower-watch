@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
-"""data/news.json から静的Wikiページ、検索索引、概念グラフを生成する。"""
+"""構造化ニュースからWiki、週間集計、引用グラフを生成する。"""
 import json
 import os
-from collections import defaultdict
+from collections import Counter, defaultdict
+from datetime import date, timedelta
+from urllib.parse import urlsplit, urlunsplit
 
 ROOT = os.path.normpath(os.path.join(os.path.dirname(__file__), ".."))
 DATA = os.path.join(ROOT, "data")
 DOCS = os.path.join(ROOT, "docs")
+ENTITY_FIELDS = ("domains", "companies", "programs", "aircraft", "models", "simulators", "topics")
 
 
 def load(name):
@@ -15,9 +18,23 @@ def load(name):
 
 
 def write(name, text):
-    path = os.path.join(DOCS, name)
-    with open(path, "w", encoding="utf-8") as f:
+    with open(os.path.join(DOCS, name), "w", encoding="utf-8") as f:
         f.write(text.rstrip() + "\n")
+
+
+def write_json(name, value):
+    with open(os.path.join(DOCS, name), "w", encoding="utf-8") as f:
+        json.dump(value, f, ensure_ascii=False, separators=(",", ":"))
+
+
+def norm_url(value):
+    p = urlsplit(value)
+    return urlunsplit((p.scheme.lower(), p.netloc.lower(), p.path.rstrip("/"), p.query, ""))
+
+
+def week_start(value):
+    day = date.fromisoformat(value)
+    return (day - timedelta(days=day.weekday())).isoformat()
 
 
 def entry(item):
@@ -43,51 +60,113 @@ def grouped_page(title, intro, field, news):
     return "\n".join(lines)
 
 
-def main():
-    news = sorted(load("news.json"), key=lambda x: (x["date"], x["id"]), reverse=True)
-    sources = load("sources.json")
+def count_values(items, field):
+    return dict(sorted(Counter(value for item in items for value in item[field]).items(),
+                       key=lambda x: (-x[1], x[0].casefold())))
 
-    write("recent.md", "\n".join([
-        "# 最近の動き", "",
-        "公開一次情報を中心に、CCA、UAV、航空戦闘AI、自律システム向け世界モデルとシミュレータの動きを新しい順に掲載します。",
-        "", *[entry(x) for x in news]
-    ]))
-    write("programs.md", grouped_page(
-        "プログラム", "各国の開発・調達プログラム別の時系列です。", "programs", news))
-    write("companies.md", grouped_page(
-        "企業", "開発企業別の発表と公的機関による関連発表です。企業発表は宣伝表現と確認済み事実を分けて扱います。", "companies", news))
-    write("aircraft.md", grouped_page(
-        "機体", "機体名称別の発表と開発段階です。試作名称と正式名称は別名として追跡します。", "aircraft", news))
-    write("topics.md", grouped_page(
-        "技術・政策トピック", "自律技術、試験、契約、政策などの話題別一覧です。", "topics", news))
-    write("world-models.md", grouped_page(
-        "世界モデル", "自動運転、自動制御、移動ロボット、航空自律システムに関係する世界モデルの一覧です。", "models", news))
-    write("simulators.md", grouped_page(
-        "シミュレータ", "学習、検証、合成データ生成、Sim-to-Realに使われるシミュレータの一覧です。", "simulators", news))
 
-    source_lines = [
-        "# 情報源", "",
-        "定期巡回の対象です。掲載判断では一次情報を優先し、SNSは発見経路としてのみ扱います。", "",
-        "| 情報源 | 種別 | 国・地域 | 優先度 |", "| --- | --- | --- | --- |"
-    ]
-    for source in sorted((x for x in sources if x.get("enabled")), key=lambda x: (x["priority"], x["name"])):
-        source_lines.append(
-            f'| [{source["name"]}]({source["url"]}) | {source["source_type"]} | '
-            f'{", ".join(source["countries"])} | {source["priority"]} |')
-    write("sources.md", "\n".join(source_lines))
-
-    index = []
+def build_weekly(news):
+    grouped = defaultdict(list)
     for item in news:
-        index.append({
-            "t": item["title"], "u": item["url"], "a": item["summary_ja"],
-            "p": "recent.html", "pt": "最近の動き",
-            "s": " / ".join(item["domains"] + item["programs"] + item["companies"] +
-                              item["aircraft"] + item["models"] + item["simulators"] + item["topics"]),
-            "d": item["date"], "status": item["status"],
+        grouped[week_start(item["collected_at"])].append(item)
+    seen = {field: set() for field in ENTITY_FIELDS}
+    weeks = []
+    for start in sorted(grouped):
+        items = sorted(grouped[start], key=lambda x: (x["collected_at"], x["date"], x["id"]), reverse=True)
+        new_entities = {}
+        for field in ENTITY_FIELDS:
+            values = {value for item in items for value in item[field]}
+            new_entities[field] = sorted(values - seen[field], key=str.casefold)
+            seen[field].update(values)
+        end = (date.fromisoformat(start) + timedelta(days=6)).isoformat()
+        daily = Counter(item["collected_at"] for item in items)
+        weeks.append({
+            "start": start, "end": end, "count": len(items),
+            "primary": sum(item["confidence"] == "primary" for item in items),
+            "sources": len({item["source"] for item in items}),
+            "domains": count_values(items, "domains"),
+            "statuses": dict(Counter(item["status"] for item in items).most_common()),
+            "source_types": dict(Counter(item["source_type"] for item in items).most_common()),
+            "daily": dict(sorted(daily.items())),
+            "topics": count_values(items, "topics"),
+            "new_entities": new_entities,
+            "article_ids": [item["id"] for item in items],
         })
-    with open(os.path.join(DOCS, "search.json"), "w", encoding="utf-8") as f:
-        json.dump(index, f, ensure_ascii=False, separators=(",", ":"))
+    for i, week in enumerate(weeks):
+        previous = weeks[i - 1]["count"] if i else 0
+        week["previous_count"] = previous
+        week["change"] = week["count"] - previous
+    return {"weeks": list(reversed(weeks)), "latest": weeks[-1]["start"] if weeks else None}
 
+
+def find_cycles(adjacency):
+    cycles = set()
+    visiting, visited = set(), set()
+
+    def walk(node, path):
+        visiting.add(node)
+        path.append(node)
+        for target in adjacency.get(node, []):
+            if target in visiting:
+                cycle = path[path.index(target):] + [target]
+                rotations = [tuple(cycle[i:-1] + cycle[:i] + [cycle[i]]) for i in range(len(cycle) - 1)]
+                cycles.add(min(rotations))
+            elif target not in visited:
+                walk(target, path)
+        path.pop()
+        visiting.discard(node)
+        visited.add(node)
+
+    for node in adjacency:
+        if node not in visited:
+            walk(node, [])
+    return [list(x) for x in sorted(cycles)]
+
+
+def build_citation_graph(news):
+    known = {norm_url(item["url"]): item for item in news}
+    nodes = {}
+    edges = []
+    adjacency = defaultdict(list)
+    for item in news:
+        node_id = norm_url(item["url"])
+        nodes[node_id] = {
+            "id": node_id, "url": item["url"], "title": item["title"],
+            "date": item["date"], "collected_at": item["collected_at"],
+            "source": item["source"], "source_type": item["source_type"],
+            "scan_status": item["citation_scan_status"], "external": False,
+        }
+    for item in news:
+        source_id = norm_url(item["url"])
+        for citation in item["citations"]:
+            target_id = norm_url(citation["url"])
+            if target_id not in nodes:
+                nodes[target_id] = {
+                    "id": target_id, "url": citation["url"], "title": citation["title"],
+                    "date": "", "collected_at": "", "source": urlsplit(citation["url"]).netloc,
+                    "source_type": "external", "scan_status": "not-scanned", "external": True,
+                }
+            edges.append({"source": source_id, "target": target_id, "type": citation["type"]})
+            adjacency[source_id].append(target_id)
+    indegree, outdegree = Counter(), Counter()
+    for edge in edges:
+        outdegree[edge["source"]] += 1
+        indegree[edge["target"]] += 1
+    for node_id, node in nodes.items():
+        node["cited_by"] = indegree[node_id]
+        node["cites"] = outdegree[node_id]
+    ranked = sorted(nodes.values(), key=lambda x: (-x["cited_by"], x["title"].casefold()))
+    roots = [x for x in ranked if x["cited_by"] and x["cites"] == 0 and x["scan_status"] == "scanned"]
+    return {
+        "nodes": list(nodes.values()), "edges": edges,
+        "most_cited": [x["id"] for x in ranked if x["cited_by"]][:10],
+        "root_candidates": [x["id"] for x in roots[:10]],
+        "cycles": find_cycles(adjacency),
+        "legend": {"source": "根拠・出典", "reference": "背景・技術資料", "related": "関連記事", "self": "同一サイト内"},
+    }
+
+
+def build_cooccurrence_graph(news):
     categories = {
         "program": sorted({x for n in news for x in n["programs"]}),
         "company": sorted({x for n in news for x in n["companies"]}),
@@ -97,35 +176,59 @@ def main():
         "simulator": sorted({x for n in news for x in n["simulators"]}),
         "topic": sorted({x for n in news for x in n["topics"]}),
     }
-    nodes = []
-    edges = defaultdict(int)
-    for kind, values in categories.items():
-        for value in values:
-            nodes.append({"id": f"{kind}:{value}", "label": value, "group": kind, "links": 0, "p": {
-                "program": "programs.html", "company": "companies.html",
-                "aircraft": "aircraft.html", "domain": "topics.html",
-                "model": "world-models.html", "simulator": "simulators.html",
-                "topic": "topics.html"}[kind]})
-    by_id = {x["id"]: x for x in nodes}
+    pages = {"program": "programs.html", "company": "companies.html", "aircraft": "aircraft.html",
+             "domain": "topics.html", "model": "world-models.html", "simulator": "simulators.html", "topic": "topics.html"}
+    nodes = [{"id": f"{kind}:{value}", "label": value, "group": kind, "links": 0, "p": pages[kind]}
+             for kind, values in categories.items() for value in values]
+    by_id, edges = {x["id"]: x for x in nodes}, defaultdict(int)
     for item in news:
-        ids = ([f'program:{x}' for x in item["programs"]] +
-               [f'company:{x}' for x in item["companies"]] +
-               [f'aircraft:{x}' for x in item["aircraft"]] +
-               [f'domain:{x}' for x in item["domains"]] +
-               [f'model:{x}' for x in item["models"]] +
-               [f'simulator:{x}' for x in item["simulators"]] +
+        ids = ([f'program:{x}' for x in item["programs"]] + [f'company:{x}' for x in item["companies"]] +
+               [f'aircraft:{x}' for x in item["aircraft"]] + [f'domain:{x}' for x in item["domains"]] +
+               [f'model:{x}' for x in item["models"]] + [f'simulator:{x}' for x in item["simulators"]] +
                [f'topic:{x}' for x in item["topics"]])
         for node_id in ids:
             by_id[node_id]["links"] += 1
         for i, a in enumerate(ids):
             for b in ids[i + 1:]:
                 edges[tuple(sorted((a, b)))] += 1
-    graph = {"nodes": nodes, "edges": [
-        {"a": a, "b": b, "w": w} for (a, b), w in sorted(edges.items())]}
-    with open(os.path.join(DOCS, "graph.json"), "w", encoding="utf-8") as f:
-        json.dump(graph, f, ensure_ascii=False, separators=(",", ":"))
+    return {"nodes": nodes, "edges": [{"a": a, "b": b, "w": w} for (a, b), w in sorted(edges.items())]}
 
-    print(f"site data: news={len(news)} sources={len(sources)} nodes={len(nodes)}")
+
+def main():
+    news = sorted(load("news.json"), key=lambda x: (x["date"], x["id"]), reverse=True)
+    sources = load("sources.json")
+    write("recent.md", "\n".join([
+        "# 最近の動き", "",
+        "公開一次情報を中心に、CCA、UAV、航空戦闘AI、自律システム向け世界モデルとシミュレータの動きを新しい順に掲載します。",
+        "", *[entry(x) for x in news]
+    ]))
+    for filename, title, intro, field in (
+        ("programs.md", "プログラム", "各国の開発・調達プログラム別の時系列です。", "programs"),
+        ("companies.md", "企業", "開発企業別の発表と公的機関による関連発表です。", "companies"),
+        ("aircraft.md", "機体", "機体名称別の発表と開発段階です。", "aircraft"),
+        ("topics.md", "技術・政策トピック", "自律技術、試験、契約、政策などの話題別一覧です。", "topics"),
+        ("world-models.md", "世界モデル", "自律システムに関係する世界モデルの一覧です。", "models"),
+        ("simulators.md", "シミュレータ", "学習、検証、合成データ生成、Sim-to-Realに使われる基盤の一覧です。", "simulators"),
+    ):
+        write(filename, grouped_page(title, intro, field, news))
+
+    source_lines = ["# 情報源", "", "定期巡回の対象です。一次情報を優先します。", "",
+                    "| 情報源 | 種別 | 国・地域 | 優先度 |", "| --- | --- | --- | --- |"]
+    for source in sorted((x for x in sources if x.get("enabled")), key=lambda x: (x["priority"], x["name"])):
+        source_lines.append(f'| [{source["name"]}]({source["url"]}) | {source["source_type"]} | '
+                            f'{", ".join(source["countries"])} | {source["priority"]} |')
+    write("sources.md", "\n".join(source_lines))
+
+    index = [{"t": x["title"], "u": x["url"], "a": x["summary_ja"], "p": "recent.html", "pt": "最近の動き",
+              "s": " / ".join(x["domains"] + x["programs"] + x["companies"] + x["aircraft"] +
+                                x["models"] + x["simulators"] + x["topics"]),
+              "d": x["date"], "status": x["status"]} for x in news]
+    write_json("search.json", index)
+    write_json("weekly.json", build_weekly(news))
+    write_json("citation-graph.json", build_citation_graph(news))
+    graph = build_cooccurrence_graph(news)
+    write_json("graph.json", graph)
+    print(f"site data: news={len(news)} sources={len(sources)} cooccurrence_nodes={len(graph['nodes'])}")
 
 
 if __name__ == "__main__":
