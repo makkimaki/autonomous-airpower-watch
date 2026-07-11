@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  {% seo title=false %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <style>
+    .site-nav {
+      border-bottom: 1px solid #d8dee4;
+      padding: 12px 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 20px;
+      align-items: baseline;
+      font-size: 14px;
+    }
+    .site-nav .site-name { font-weight: bold; font-size: 16px; margin-right: 8px; }
+    .site-nav a { text-decoration: none; }
+  </style>
+</head>
+<body>
+  <header class="site-nav">
+    <a class="site-name" href="{{ '/' | relative_url }}">Autonomous Airpower Watch</a>
+    <a href="{{ '/#目次' | relative_url }}">目次</a>
+    <a href="{{ '/docs/search.html' | relative_url }}">検索</a>
+    <a href="{{ '/docs/concept-map.html' | relative_url }}">マップ</a>
+    <a href="{{ '/docs/recent.html' | relative_url }}">最近の動き</a>
+    <a href="{{ '/docs/programs.html' | relative_url }}">プログラム</a>
+    <a href="{{ '/docs/companies.html' | relative_url }}">企業</a>
+    <a href="{{ '/docs/aircraft.html' | relative_url }}">機体</a>
+    <a href="{{ '/docs/world-models.html' | relative_url }}">世界モデル</a>
+    <a href="{{ '/docs/simulators.html' | relative_url }}">シミュレータ</a>
+    <a href="https://github.com/makkimaki/autonomous-airpower-watch">GitHub</a>
+  </header>
+  <div class="container-lg px-3 my-5 markdown-body">
+    {{ content }}
+  </div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "carla-blog",
+    "name": "CARLA Simulator Blog",
+    "url": "https://carla.org/posts/",
+    "source_type": "research",
+    "countries": [],
+    "topics": ["autonomous-driving", "simulation", "world-model"],
+    "priority": 1,
+    "enabled": true
+  },
+  {
+    "id": "nvidia-cosmos",
+    "name": "NVIDIA Cosmos",
+    "url": "https://www.nvidia.com/en-us/ai/cosmos/",
+    "source_type": "company",
+    "countries": ["US"],
+    "topics": ["world-model", "simulation", "robotics", "autonomous-driving"],
+    "priority": 1,
+    "enabled": true
+  },
+  {
+    "id": "nvidia-newsroom-physical-ai",
+    "name": "NVIDIA Newsroom",
+    "url": "https://nvidianews.nvidia.com/",
+    "source_type": "company",
+    "countries": ["US"],
+    "topics": ["physical-ai", "world-model", "simulation"],
+    "priority": 2,
+    "enabled": true
+  },
+  {
+    "id": "usaf-cca",
+    "name": "U.S. Air Force CCA News",
+    "url": "https://www.af.mil/News/Tag/244925/collaborative-combat-aircraft/",
+    "source_type": "government",
+    "countries": ["US"],
+    "topics": ["CCA", "mission-autonomy"],
+    "priority": 1,
+    "enabled": true
+  },
+  {
+    "id": "darpa-news",
+    "name": "DARPA News",
+    "url": "https://www.darpa.mil/news",
+    "source_type": "government",
+    "countries": ["US"],
+    "topics": ["air-combat-ai", "autonomous-flight"],
+    "priority": 1,
+    "enabled": true
+  },
+  {
+    "id": "ga-asi-news",
+    "name": "General Atomics Aeronautical Systems News",
+    "url": "https://www.ga-asi.com/news",
+    "source_type": "company",
+    "countries": ["US"],
+    "topics": ["CCA", "UAV"],
+    "priority": 1,
+    "enabled": true
+  },
+  {
+    "id": "anduril-news",
+    "name": "Anduril News",
+    "url": "https://www.anduril.com/news/",
+    "source_type": "company",
+    "countries": ["US"],
+    "topics": ["CCA", "mission-autonomy"],
+    "priority": 1,
+    "enabled": true
+  },
+  {
+    "id": "boeing-mq28",
+    "name": "Boeing MQ-28",
+    "url": "https://www.boeing.com/defense/mq28",
+    "source_type": "company",
+    "countries": ["AU", "US"],
+    "topics": ["CCA", "MQ-28"],
+    "priority": 2,
+    "enabled": true
+  },
+  {
+    "id": "mod-japan",
+    "name": "防衛省 報道・広報",
+    "url": "https://www.mod.go.jp/j/press/",
+    "source_type": "government",
+    "countries": ["JP"],
+    "topics": ["UAV", "combat-aircraft", "procurement"],
+    "priority": 1,
+    "enabled": true
+  },
+  {
+    "id": "atla-japan",
+    "name": "防衛装備庁",
+    "url": "https://www.mod.go.jp/atla/",
+    "source_type": "government",
+    "countries": ["JP"],
+    "topics": ["UAV", "autonomy", "procurement"],
+    "priority": 1,
+    "enabled": true
+  }
+]

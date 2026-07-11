@@ -1,0 +1,60 @@
+# 公開情報源を確認し、新着候補を構造化データへ追加してPRを作成する
+name: Weekly ingest
+
+on:
+  schedule:
+    - cron: "0 0 * * 6" # 土曜09:00 JST
+  workflow_dispatch:
+    inputs:
+      source_url:
+        description: "追加で確認する公開情報源または記事URL"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+  id-token: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: |
+            ルートのCLAUDE.mdを最後まで読み、その取り込み規約に従ってください。
+
+            data/sources.jsonのうちenabled=trueの情報源を確認し、前回掲載後のCCA、UAV、航空戦闘AI、自動運転・自動制御・移動ロボット向け世界モデルおよびシミュレータに関する新着をdata/news.jsonへ追加してください。
+            追加指定URL: ${{ inputs.source_url }}
+
+            - タイトルだけで判定せず、各候補の原文を確認すること
+            - URLと同一イベントの重複を避けること
+            - 公表されていない性能や意図を推測しないこと
+            - リアルタイムの部隊配置、飛行位置、作戦情報を掲載しないこと
+            - 記事本文を保存しないこと
+            - tools/build_site.pyとtools/verify_wiki.pyを実行すること
+            - docs/wiki/log.mdへ号ではなく対象期間と追加件数を記録すること
+            - git commitとpushは行わないこと
+          claude_args: |
+            --allowedTools "Read,Write,Edit,Glob,Grep,WebFetch,Bash(python3 tools/build_site.py),Bash(python3 tools/verify_wiki.py)"
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "Update autonomous airpower news"
+          title: "Weekly ingest: CCA/UAV公開情報の更新"
+          body: |
+            公開情報源から生成した週次更新です。次を確認してからマージしてください。
+
+            - 原文URLと発表日
+            - 用途領域、企業、プログラム、機体、世界モデル、シミュレータ、技術の分類
+            - 発表、契約、試験、量産、配備の区別
+            - 注釈に推測や企業の宣伝表現が混入していないこと
+            - 公開情報と安全性に関するCLAUDE.mdの規約
+          branch: auto/weekly-ingest
+          delete-branch: true
