@@ -99,6 +99,43 @@ def build_weekly(news):
     return {"weeks": list(reversed(weeks)), "latest": weeks[-1]["start"] if weeks else None}
 
 
+def build_weekly_flow(news):
+    """情報源→用途領域→開発段階の週間フローを生成する。"""
+    grouped = defaultdict(list)
+    for item in news:
+        grouped[week_start(item["collected_at"])].append(item)
+    weeks = []
+    for start in sorted(grouped, reverse=True):
+        items = grouped[start]
+        node_articles = defaultdict(set)
+        link_articles = defaultdict(set)
+        articles = {}
+        for item in items:
+            articles[item["id"]] = {"id": item["id"], "title": item["title"], "url": item["url"],
+                                     "date": item["date"], "summary": item["summary_ja"]}
+            source_id = f'source:{item["source"]}'
+            status_id = f'status:{item["status"]}'
+            node_articles[source_id].add(item["id"])
+            node_articles[status_id].add(item["id"])
+            for domain in item["domains"]:
+                domain_id = f'domain:{domain}'
+                node_articles[domain_id].add(item["id"])
+                link_articles[(source_id, domain_id)].add(item["id"])
+                link_articles[(domain_id, status_id)].add(item["id"])
+        labels = {"source": "情報源", "domain": "用途領域", "status": "開発段階"}
+        nodes = []
+        for node_id, article_ids in node_articles.items():
+            kind, label = node_id.split(":", 1)
+            nodes.append({"id": node_id, "kind": kind, "group": labels[kind], "label": label,
+                          "value": len(article_ids), "articles": sorted(article_ids)})
+        links = [{"source": a, "target": b, "value": len(ids), "articles": sorted(ids)}
+                 for (a, b), ids in sorted(link_articles.items())]
+        end = (date.fromisoformat(start) + timedelta(days=6)).isoformat()
+        weeks.append({"start": start, "end": end, "nodes": nodes, "links": links,
+                      "articles": list(articles.values())})
+    return {"weeks": weeks, "latest": weeks[0]["start"] if weeks else None}
+
+
 def find_cycles(adjacency):
     cycles = set()
     visiting, visited = set(), set()
@@ -225,6 +262,7 @@ def main():
               "d": x["date"], "status": x["status"]} for x in news]
     write_json("search.json", index)
     write_json("weekly.json", build_weekly(news))
+    write_json("weekly-flow.json", build_weekly_flow(news))
     write_json("citation-graph.json", build_citation_graph(news))
     graph = build_cooccurrence_graph(news)
     write_json("graph.json", graph)

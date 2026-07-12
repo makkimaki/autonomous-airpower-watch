@@ -121,7 +121,7 @@ for value, count in source_ids.items():
     if value and count > 1:
         problems.append(f"[情報源id重複] {value} ×{count}")
 
-expected = {"recent.md", "programs.md", "companies.md", "aircraft.md", "topics.md", "world-models.md", "simulators.md", "sources.md", "search.json", "graph.json", "weekly.json", "citation-graph.json", "weekly.md", "citations.md"}
+expected = {"recent.md", "programs.md", "companies.md", "aircraft.md", "topics.md", "world-models.md", "simulators.md", "sources.md", "search.json", "graph.json", "weekly.json", "weekly-flow.json", "citation-graph.json", "weekly.md", "flow.md", "citations.md"}
 missing_outputs = sorted(x for x in expected if not os.path.exists(os.path.join(DOCS, x)))
 if missing_outputs:
     problems.append(f"[生成物不足] {', '.join(missing_outputs)}")
