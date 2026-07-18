@@ -6,10 +6,18 @@ on:
     - cron: "0 0 * * 6" # 土曜09:00 JST
   workflow_dispatch:
     inputs:
+      lookback_days:
+        description: "何日前まで遡って新着を確認するか"
+        required: true
+        default: "14"
       source_url:
         description: "追加で確認する公開情報源または記事URL"
         required: false
         default: ""
+
+concurrency:
+  group: weekly-ingest
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -22,6 +30,24 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
+      - name: Resolve collection window
+        id: window
+        env:
+          LOOKBACK_DAYS: ${{ inputs.lookback_days || '14' }}
+        run: |
+          case "$LOOKBACK_DAYS" in
+            ''|*[!0-9]*)
+              echo "lookback_days must be a positive integer" >&2
+              exit 1
+              ;;
+          esac
+          if [ "$LOOKBACK_DAYS" -lt 1 ] || [ "$LOOKBACK_DAYS" -gt 90 ]; then
+            echo "lookback_days must be between 1 and 90" >&2
+            exit 1
+          fi
+          echo "start=$(date -u -d "$LOOKBACK_DAYS days ago" +%F)" >> "$GITHUB_OUTPUT"
+          echo "end=$(date -u +%F)" >> "$GITHUB_OUTPUT"
+
       - name: Collect and classify public information with Codex
         uses: openai/codex-action@v1
         with:
@@ -33,9 +59,10 @@ jobs:
           prompt: |
             ルートのCLAUDE.mdを最後まで読み、その取り込み規約に従ってください。
 
-            data/sources.jsonのうちenabled=trueの情報源を確認し、前回掲載後のCCA、UAV、航空戦闘AI、自動運転・自動制御・移動ロボット向け世界モデルおよびシミュレータに関する新着をdata/news.jsonへ追加してください。
+            data/sources.jsonのうちenabled=trueの情報源を確認し、${{ steps.window.outputs.start }}から${{ steps.window.outputs.end }}までに公開または更新された、CCA、UAV、航空戦闘AI、自動運転・自動制御・移動ロボット向け世界モデルおよびシミュレータに関する新着をdata/news.jsonへ追加してください。
             追加指定URL: ${{ inputs.source_url }}
 
+            - 毎回対象期間全体を確認し、既存URLと同一イベントを除外することで、失敗した週の取り逃しを回収すること
             - タイトルだけで判定せず、各候補の原文を確認すること
             - collected_atに実行日を記録すること
             - 記事本文領域にある引用・参照リンクを抽出し、source/reference/related/selfに分類すること
