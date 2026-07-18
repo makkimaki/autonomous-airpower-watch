@@ -119,5 +119,157 @@
         "type": "reference"
       }
     ]
+  },
+  {
+    "id": "2026-07-15-usaf-cca-live-fire-test",
+    "title": "Air Force conducts live-fire test for Collaborative Combat Aircraft program",
+    "date": "2026-07-15",
+    "collected_at": "2026-07-18",
+    "url": "https://www.af.mil/News/Article-Display/Article/4545856/air-force-conducts-live-fire-test-for-collaborative-combat-aircraft-program/",
+    "source": "U.S. Air Force",
+    "source_type": "government",
+    "countries": ["US"],
+    "domains": ["airpower"],
+    "organizations": ["Department of the Air Force", "U.S. Air Force"],
+    "companies": [],
+    "programs": ["Collaborative Combat Aircraft"],
+    "aircraft": ["YFQ-44A"],
+    "models": [],
+    "simulators": [],
+    "topics": ["CCA", "flight-test", "live-fire"],
+    "status": "flight-test",
+    "summary_ja": "米空軍はYFQ-44A Collaborative Combat Aircraftの実弾投射試験を公表し、Mojave上空の限定空域でAIM-120をデジタル目標に発射したと明らかにした。人間の監督を維持したまま、段階的試験で機体と兵器の統合を検証している。",
+    "confidence": "primary",
+    "citation_scan_status": "scanned",
+    "citations": [
+      {
+        "url": "https://www.af.mil/News/Photos/igphoto/2003961433/mediaid/10212016/",
+        "title": "A YFQ-44A Collaborative Combat Aircraft flies over the Mojave Desert after conducting live-fire testing over the Mojave Desert. The live-fire test of the YFQ-44 aircraft is the latest milestone in the rapid development of safe and effective CCA operations. (U.S. Air Force photo by Jennifer Healy)",
+        "type": "source"
+      }
+    ]
+  },
+  {
+    "id": "2026-07-16-darpa-venom-ai-f16",
+    "title": "DARPA and U.S. Air Force fly AI-controlled F-16, paving the way for autonomous air combat",
+    "date": "2026-07-16",
+    "collected_at": "2026-07-18",
+    "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+    "source": "DARPA",
+    "source_type": "government",
+    "countries": ["US"],
+    "domains": ["airpower"],
+    "organizations": ["DARPA", "U.S. Air Force", "Air Force Research Laboratory"],
+    "companies": [],
+    "programs": ["Air Combat Evolution", "Artificial Intelligence Reinforcements", "VENOM"],
+    "aircraft": ["F-16"],
+    "models": [],
+    "simulators": [],
+    "topics": ["air-combat-ai", "human-machine-teaming", "flight-test"],
+    "status": "flight-test",
+    "summary_ja": "DARPAと米空軍は、VENOM改修F-16による空中試験でAIが飛行を自律制御したと発表した。AIRプログラムでは、この試験機群を使って有人機と無人機の協同や将来のCCAに向けた戦術自律を実飛行で検証する。",
+    "confidence": "primary",
+    "citation_scan_status": "scanned",
+    "citations": [
+      {
+        "url": "https://www.darpa.mil/research/programs/air-combat-evolution",
+        "title": "Air Combat Evolution",
+        "type": "self"
+      },
+      {
+        "url": "https://www.darpa.mil/research/programs/artificial-intelligence-reinforcements",
+        "title": "Artificial Intelligence Reinforcements",
+        "type": "self"
+      }
+    ]
+  },
+  {
+    "id": "2026-07-15-nvidia-cosmos-japan-physical-ai-frontier",
+    "title": "Japan’s Robotics and Manufacturing Leaders Build on NVIDIA Cosmos to Advance Physical AI Frontier",
+    "date": "2026-07-15",
+    "collected_at": "2026-07-18",
+    "url": "https://nvidianews.nvidia.com/news/japans-robotics-and-manufacturing-leaders-build-on-nvidia-cosmos-to-advance-physical-ai-frontier",
+    "source": "NVIDIA",
+    "source_type": "company",
+    "countries": ["US"],
+    "domains": ["autonomous-driving", "mobile-robotics", "robotics"],
+    "organizations": ["NVIDIA"],
+    "companies": ["NVIDIA"],
+    "programs": ["NVIDIA Cosmos"],
+    "aircraft": [],
+    "models": ["Cosmos 3 Edge"],
+    "simulators": ["NVIDIA Omniverse", "Isaac Sim"],
+    "topics": ["world-model", "simulation", "robotics", "digital-twin", "sim-to-real"],
+    "status": "announced",
+    "summary_ja": "NVIDIAは、日本の物理AI関係者がCosmos、Isaac、Metropolis、Jetsonを基盤に世界モデルとロボット開発を進めていると発表した。Fujitsuの協調制御基盤構想や、Cosmos 3 Edge、Omniverse NuRec、Newton、Isaac Simを使うシミュレーションと実機移行の取り組みが含まれる。",
+    "confidence": "primary",
+    "citation_scan_status": "scanned",
+    "citations": [
+      {
+        "url": "https://www.nvidia.com/en-us/ai/cosmos/",
+        "title": "NVIDIA Cosmos",
+        "type": "self"
+      },
+      {
+        "url": "https://developer.nvidia.com/isaac",
+        "title": "NVIDIA Isaac",
+        "type": "self"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/intelligent-video-analytics-platform/",
+        "title": "NVIDIA Metropolis",
+        "type": "self"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/",
+        "title": "NVIDIA Jetson",
+        "type": "self"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/glossary/world-models/",
+        "title": "What Is a World Model?",
+        "type": "reference"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/glossary/generative-physical-ai/",
+        "title": "What is Physical AI?",
+        "type": "reference"
+      },
+      {
+        "url": "https://github.com/NVIDIA/cosmos-framework",
+        "title": "NVIDIA/cosmos-framework",
+        "type": "reference"
+      },
+      {
+        "url": "https://blogs.nvidia.com/blog/japan-ecosystem-2026/",
+        "title": "NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry",
+        "type": "related"
+      },
+      {
+        "url": "https://developer.nvidia.com/omniverse/nurec",
+        "title": "Neural Reconstruction & 3D Gaussian Splatting",
+        "type": "reference"
+      },
+      {
+        "url": "https://developer.nvidia.com/newton-physics",
+        "title": "Newton Physics Engine",
+        "type": "reference"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/omniverse/",
+        "title": "Develop Physical AI Applications",
+        "type": "self"
+      },
+      {
+        "url": "https://developer.nvidia.com/industries/telecommunications/ai-aerial",
+        "title": "NVIDIA Aerial",
+        "type": "reference"
+      },
+      {
+        "url": "https://lovot.life/en/",
+        "title": "LOVOT",
+        "type": "related"
+      }
+    ]
   }
 ]
