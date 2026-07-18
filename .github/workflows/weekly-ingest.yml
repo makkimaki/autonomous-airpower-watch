@@ -29,7 +29,7 @@ jobs:
           model: gpt-5.4-mini
           effort: medium
           sandbox: workspace-write
-          codex-args: '["--search"]'
+          codex-args: '["--config", "web_search=\"live\""]'
           prompt: |
             ルートのCLAUDE.mdを最後まで読み、その取り込み規約に従ってください。
 
