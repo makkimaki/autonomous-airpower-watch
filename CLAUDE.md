@@ -54,7 +54,9 @@
 8. 記事本文の引用・参照を確認し、調査状態と`citations`を記録します。取得不能なら`unavailable`、一部だけ確認できた場合は`partial`にします。
 9. `summary_ja`は短い独自表現とし、本文を転載しません。
 10. `python3 tools/build_site.py`と`python3 tools/verify_wiki.py`を実行します。
-11. `docs/wiki/log.md`へ取り込み件数と対象期間を記録します。
+11. `docs/wiki/log.md`の先頭へ`[ニュース]`として取り込み件数と対象期間を記録します。追加0件の場合も記録します。このログはサイト生成時にトップページへ反映されます。
+
+プロダクトの機能・表示・運用方法を変更した場合も、`docs/wiki/log.md`の先頭へ`[プロダクト]`として記録し、`python3 tools/build_site.py`を実行します。
 
 ## 情報源の扱い
 

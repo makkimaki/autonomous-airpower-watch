@@ -9,7 +9,10 @@ from urllib.parse import urlsplit, urlunsplit
 ROOT = os.path.normpath(os.path.join(os.path.dirname(__file__), ".."))
 DATA = os.path.join(ROOT, "data")
 DOCS = os.path.join(ROOT, "docs")
+README = os.path.join(ROOT, "README.md")
+UPDATE_LOG = os.path.join(DOCS, "wiki", "log.md")
 ENTITY_FIELDS = ("domains", "companies", "programs", "aircraft", "models", "simulators", "topics")
+README_UPDATE_LIMIT = 6
 
 
 def load(name):
@@ -25,6 +28,25 @@ def write(name, text):
 def write_json(name, value):
     with open(os.path.join(DOCS, name), "w", encoding="utf-8") as f:
         json.dump(value, f, ensure_ascii=False, separators=(",", ":"))
+
+
+def update_readme_updates():
+    """操作ログの最新項目をトップページの「最近の更新」へ反映する。"""
+    with open(UPDATE_LOG, encoding="utf-8") as f:
+        updates = [line.rstrip() for line in f if line.startswith("- ")][:README_UPDATE_LIMIT]
+    if not updates:
+        updates = ["- 更新履歴はまだありません。"]
+
+    with open(README, encoding="utf-8") as f:
+        readme = f.read()
+    start_marker = "## 最近の更新\n"
+    end_marker = "\n## 目次\n"
+    start = readme.index(start_marker) + len(start_marker)
+    end = readme.index(end_marker, start)
+    replacement = "\n" + "\n".join(updates) + "\n"
+    updated = readme[:start] + replacement + readme[end:]
+    with open(README, "w", encoding="utf-8") as f:
+        f.write(updated)
 
 
 def norm_url(value):
@@ -234,6 +256,7 @@ def build_cooccurrence_graph(news):
 def main():
     news = sorted(load("news.json"), key=lambda x: (x["date"], x["id"]), reverse=True)
     sources = load("sources.json")
+    update_readme_updates()
     write("recent.md", "\n".join([
         "# 最近の動き", "",
         "公開一次情報を中心に、CCA、UAV、航空戦闘AI、自律システム向け世界モデルとシミュレータの動きを新しい順に掲載します。",

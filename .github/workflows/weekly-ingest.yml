@@ -73,7 +73,7 @@ jobs:
             - リアルタイムの部隊配置、飛行位置、作戦情報を掲載しないこと
             - 記事本文を保存しないこと
             - tools/build_site.pyとtools/verify_wiki.pyを実行すること
-            - docs/wiki/log.mdへ号ではなく対象期間と追加件数を記録すること
+            - docs/wiki/log.mdの先頭へ`[ニュース]`として、号ではなく対象期間と追加件数を記録すること。追加0件の場合も記録すること
             - git commitとpushは行わないこと
 
       - name: Create Pull Request

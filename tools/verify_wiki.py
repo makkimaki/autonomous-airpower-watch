@@ -11,6 +11,8 @@ from urllib.parse import urlsplit, urlunsplit
 ROOT = os.path.normpath(os.path.join(os.path.dirname(__file__), ".."))
 DATA = os.path.join(ROOT, "data")
 DOCS = os.path.join(ROOT, "docs")
+README = os.path.join(ROOT, "README.md")
+UPDATE_LOG = os.path.join(DOCS, "wiki", "log.md")
 STATUSES = {
     "research", "announced", "solicitation", "selected", "contracted",
     "prototype", "ground-test", "flight-test", "production", "delivered",
@@ -125,6 +127,21 @@ expected = {"recent.md", "programs.md", "companies.md", "aircraft.md", "topics.m
 missing_outputs = sorted(x for x in expected if not os.path.exists(os.path.join(DOCS, x)))
 if missing_outputs:
     problems.append(f"[生成物不足] {', '.join(missing_outputs)}")
+
+try:
+    with open(UPDATE_LOG, encoding="utf-8") as f:
+        update_lines = [line.rstrip() for line in f if line.startswith("- ")]
+    with open(README, encoding="utf-8") as f:
+        readme = f.read()
+    for line in update_lines[:6]:
+        if line not in readme:
+            problems.append("[トップページ] 操作ログの最新6件が反映されていない")
+            break
+    for line in update_lines:
+        if not line.startswith(("- [ニュース] ", "- [プロダクト] ")):
+            problems.append(f"[操作ログ] 種別が不正: {line}")
+except OSError as e:
+    problems.append(f"[更新履歴] 読み込み失敗: {e}")
 
 print(f"検査対象: news={len(news)} sources={len(sources)}")
 if problems:
