@@ -271,5 +271,190 @@
         "type": "related"
       }
     ]
+  },
+  {
+    "id": "2026-07-15-anduril-barracuda-500-framework",
+    "title": "Anduril, Department of War Sign Framework Agreement for Air-Launched Barracuda-500",
+    "date": "2026-07-15",
+    "collected_at": "2026-07-25",
+    "url": "https://www.anduril.com/news/anduril-department-of-war-sign-framework-agreement-for-air-launched-barracuda-500",
+    "source": "Anduril",
+    "source_type": "company",
+    "countries": [
+      "US"
+    ],
+    "domains": [
+      "airpower"
+    ],
+    "organizations": [
+      "Anduril Industries",
+      "Department of War"
+    ],
+    "companies": [
+      "Anduril"
+    ],
+    "programs": [
+      "Barracuda-500"
+    ],
+    "aircraft": [
+      "Barracuda-500"
+    ],
+    "models": [],
+    "simulators": [],
+    "topics": [
+      "UAV",
+      "mission-autonomy",
+      "contract"
+    ],
+    "status": "contracted",
+    "summary_ja": "Andurilは、空中発射型Barracuda-500に関する枠組み合意を米国防当局と結んだと発表した。記事は量産拡大の枠組みを示すもので、機体の新規性能を追加で推定するものではない。",
+    "confidence": "primary",
+    "citation_scan_status": "unavailable",
+    "citations": []
+  },
+  {
+    "id": "2026-07-20-anduril-thunder",
+    "title": "Introducing Thunder: Autonomous Attack Rotorcraft for the Near-Surface Fight",
+    "date": "2026-07-20",
+    "collected_at": "2026-07-25",
+    "url": "https://www.anduril.com/news/thunder",
+    "source": "Anduril",
+    "source_type": "company",
+    "countries": [
+      "US"
+    ],
+    "domains": [
+      "airpower"
+    ],
+    "organizations": [
+      "Anduril Industries"
+    ],
+    "companies": [
+      "Anduril"
+    ],
+    "programs": [
+      "Thunder"
+    ],
+    "aircraft": [
+      "Thunder"
+    ],
+    "models": [],
+    "simulators": [],
+    "topics": [
+      "UAV",
+      "mission-autonomy"
+    ],
+    "status": "announced",
+    "summary_ja": "Andurilは、近接域戦闘向けの自律攻撃ロータークラフトThunderを紹介した。公開本文では機体の位置づけと設計思想が示されるが、未公表の運用能力は追加していない。",
+    "confidence": "primary",
+    "citation_scan_status": "unavailable",
+    "citations": []
+  },
+  {
+    "id": "2026-07-20-nvidia-agent-toolkit-omniverse-libraries",
+    "title": "NVIDIA Agent Toolkit Expands With New Omniverse Libraries, Putting AI Agents to Work Building Simulation-Ready Worlds",
+    "date": "2026-07-20",
+    "collected_at": "2026-07-25",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-agent-toolkit-expands-with-new-omniverse-libraries-putting-ai-agents-to-work-building-simulation-ready-worlds",
+    "source": "NVIDIA",
+    "source_type": "company",
+    "countries": [
+      "US"
+    ],
+    "domains": [
+      "autonomous-driving",
+      "mobile-robotics",
+      "robotics"
+    ],
+    "organizations": [
+      "NVIDIA"
+    ],
+    "companies": [
+      "NVIDIA"
+    ],
+    "programs": [
+      "NVIDIA Agent Toolkit",
+      "NVIDIA Omniverse"
+    ],
+    "aircraft": [],
+    "models": [],
+    "simulators": [
+      "NVIDIA Omniverse"
+    ],
+    "topics": [
+      "world-model",
+      "simulation",
+      "physical-ai",
+      "synthetic-data"
+    ],
+    "status": "updated",
+    "summary_ja": "NVIDIAはAgent ToolkitにOmniverseライブラリを追加し、AIエージェントがセンサーシミュレーション、GPU物理、SimReady資産検証を扱えるようにした。Blender向けblueprintやOpenUSD、SimReady関連の公開導線も含み、シミュレーション準備の作業を前進させる内容だった。",
+    "confidence": "primary",
+    "citation_scan_status": "scanned",
+    "citations": [
+      {
+        "url": "https://developer.nvidia.com/omniverse",
+        "title": "NVIDIA Omniverse Libraries | NVIDIA Developer",
+        "type": "self"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/glossary/generative-physical-ai/",
+        "title": "What is Physical AI?",
+        "type": "reference"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/glossary/openusd/",
+        "title": "What Is OpenUSD and How Does It Work?",
+        "type": "reference"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/glossary/simready/",
+        "title": "What Is SimReady?",
+        "type": "reference"
+      },
+      {
+        "url": "https://github.com/NVIDIA-Omniverse/",
+        "title": "NVIDIA Omniverse · GitHub",
+        "type": "reference"
+      },
+      {
+        "url": "https://www.onshape.com/en/",
+        "title": "Onshape | Product Development Platform",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "id": "2026-07-23-atla-rough-terrain-novel-view-synthesis",
+    "title": "不整地環境における新規視点画像合成の検証役務",
+    "date": "2026-07-23",
+    "collected_at": "2026-07-25",
+    "url": "https://www.mod.go.jp/atla/data/info/ny_kenkyu_riku/pdf/koukoku/koukoku08-015.pdf",
+    "source": "防衛装備庁",
+    "source_type": "government",
+    "countries": [
+      "JP"
+    ],
+    "domains": [
+      "mobile-robotics"
+    ],
+    "organizations": [
+      "防衛装備庁陸上装備研究所"
+    ],
+    "companies": [],
+    "programs": [],
+    "aircraft": [],
+    "models": [],
+    "simulators": [],
+    "topics": [
+      "simulation",
+      "synthetic-data",
+      "world-model"
+    ],
+    "status": "solicitation",
+    "summary_ja": "防衛装備庁陸上装備研究所は、不整地環境における新規視点画像合成の検証役務を公告した。公開文面は検証対象を明確に示すが、本文中の外部参照は確認できなかった。",
+    "confidence": "primary",
+    "citation_scan_status": "scanned",
+    "citations": []
   }
 ]
