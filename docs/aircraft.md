@@ -2,6 +2,14 @@
 
 機体名称別の発表と開発段階です。
 
+## Barracuda-500
+
+- **2026-07-15** [Anduril, Department of War Sign Framework Agreement for Air-Launched Barracuda-500](https://www.anduril.com/news/anduril-department-of-war-sign-framework-agreement-for-air-launched-barracuda-500)
+
+  Andurilは、空中発射型Barracuda-500に関する枠組み合意を米国防当局と結んだと発表した。記事は量産拡大の枠組みを示すもので、機体の新規性能を追加で推定するものではない。
+
+  出典: Anduril / 状態: `contracted` / UAV / mission-autonomy / contract
+
 ## F-16
 
 - **2026-07-16** [DARPA and U.S. Air Force fly AI-controlled F-16, paving the way for autonomous air combat](https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16)
@@ -22,6 +30,14 @@
   米空軍はCCA Increment 1の機体とミッション自律ソフトウェアに関する複数契約を発表し、ハードウェアと自律ソフトウェアを分離して競争させる方針を示した。
 
   出典: U.S. Air Force / 状態: `contracted` / CCA / mission-autonomy / contract / production
+
+## Thunder
+
+- **2026-07-20** [Introducing Thunder: Autonomous Attack Rotorcraft for the Near-Surface Fight](https://www.anduril.com/news/thunder)
+
+  Andurilは、近接域戦闘向けの自律攻撃ロータークラフトThunderを紹介した。公開本文では機体の位置づけと設計思想が示されるが、未公表の運用能力は追加していない。
+
+  出典: Anduril / 状態: `announced` / UAV / mission-autonomy
 
 ## X-62A VISTA
 

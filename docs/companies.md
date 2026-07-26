@@ -4,6 +4,16 @@
 
 ## Anduril
 
+- **2026-07-20** [Introducing Thunder: Autonomous Attack Rotorcraft for the Near-Surface Fight](https://www.anduril.com/news/thunder)
+
+  Andurilは、近接域戦闘向けの自律攻撃ロータークラフトThunderを紹介した。公開本文では機体の位置づけと設計思想が示されるが、未公表の運用能力は追加していない。
+
+  出典: Anduril / 状態: `announced` / UAV / mission-autonomy
+- **2026-07-15** [Anduril, Department of War Sign Framework Agreement for Air-Launched Barracuda-500](https://www.anduril.com/news/anduril-department-of-war-sign-framework-agreement-for-air-launched-barracuda-500)
+
+  Andurilは、空中発射型Barracuda-500に関する枠組み合意を米国防当局と結んだと発表した。記事は量産拡大の枠組みを示すもので、機体の新規性能を追加で推定するものではない。
+
+  出典: Anduril / 状態: `contracted` / UAV / mission-autonomy / contract
 - **2026-06-17** [Air Force advances future of air superiority with CCA contracts](https://www.af.mil/News/Article-Display/Article/4520575/air-force-advances-future-of-air-superiority-with-cca-contracts/)
 
   米空軍はCCA Increment 1の機体とミッション自律ソフトウェアに関する複数契約を発表し、ハードウェアと自律ソフトウェアを分離して競争させる方針を示した。
@@ -30,6 +40,11 @@
 
 ## NVIDIA
 
+- **2026-07-20** [NVIDIA Agent Toolkit Expands With New Omniverse Libraries, Putting AI Agents to Work Building Simulation-Ready Worlds](https://nvidianews.nvidia.com/news/nvidia-agent-toolkit-expands-with-new-omniverse-libraries-putting-ai-agents-to-work-building-simulation-ready-worlds)
+
+  NVIDIAはAgent ToolkitにOmniverseライブラリを追加し、AIエージェントがセンサーシミュレーション、GPU物理、SimReady資産検証を扱えるようにした。Blender向けblueprintやOpenUSD、SimReady関連の公開導線も含み、シミュレーション準備の作業を前進させる内容だった。
+
+  出典: NVIDIA / 状態: `updated` / world-model / simulation / physical-ai / synthetic-data
 - **2026-07-15** [Japan’s Robotics and Manufacturing Leaders Build on NVIDIA Cosmos to Advance Physical AI Frontier](https://nvidianews.nvidia.com/news/japans-robotics-and-manufacturing-leaders-build-on-nvidia-cosmos-to-advance-physical-ai-frontier)
 
   NVIDIAは、日本の物理AI関係者がCosmos、Isaac、Metropolis、Jetsonを基盤に世界モデルとロボット開発を進めていると発表した。Fujitsuの協調制御基盤構想や、Cosmos 3 Edge、Omniverse NuRec、Newton、Isaac Simを使うシミュレーションと実機移行の取り組みが含まれる。
