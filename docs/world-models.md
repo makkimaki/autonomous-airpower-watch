@@ -2,6 +2,14 @@
 
 自律システムに関係する世界モデルの一覧です。
 
+## Cosmos 3
+
+- **2026-08-06** [Into the Omniverse: How Open World Models Push the Frontier of Physical AI](https://blogs.nvidia.com/blog/open-world-models-physical-ai/)
+
+  NVIDIAは、Cosmos 3を軸に世界モデル、Omniverseベースのシミュレーション、合成データ生成を組み合わせ、ロボット、自動運転、映像AI向けの物理AI開発を整理した。
+
+  出典: NVIDIA / 状態: `updated` / world-model / simulation / physical-ai / synthetic-data / digital-twin
+
 ## Cosmos 3 Edge
 
 - **2026-07-15** [Japan’s Robotics and Manufacturing Leaders Build on NVIDIA Cosmos to Advance Physical AI Frontier](https://nvidianews.nvidia.com/news/japans-robotics-and-manufacturing-leaders-build-on-nvidia-cosmos-to-advance-physical-ai-frontier)
@@ -17,6 +25,22 @@
   NVIDIAは、ロボットと自動運転車向けの世界生成・推論モデルと、Omniverseを用いた合成データ生成ワークフローの拡張を発表した。
 
   出典: NVIDIA / 状態: `updated` / world-model / synthetic-data / simulation / physical-ai
+
+## NVIDIA Alpamayo 2 Super
+
+- **2026-08-04** [NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use](https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/)
+
+  NVIDIAは、Alpamayo 2 Superを商用利用向けの開放モデルとして公開し、自動運転車の推論と閉ループ検証に使う学習・評価の流れを示した。
+
+  出典: NVIDIA / 状態: `updated` / world-model / autonomous-driving / simulation / physical-ai / synthetic-data
+
+## NVIDIA Cosmos 3 Super Reasoner
+
+- **2026-08-04** [NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use](https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/)
+
+  NVIDIAは、Alpamayo 2 Superを商用利用向けの開放モデルとして公開し、自動運転車の推論と閉ループ検証に使う学習・評価の流れを示した。
+
+  出典: NVIDIA / 状態: `updated` / world-model / autonomous-driving / simulation / physical-ai / synthetic-data
 
 ## NVIDIA Cosmos Transfer
 

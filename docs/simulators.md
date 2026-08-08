@@ -18,8 +18,21 @@
 
   出典: NVIDIA / 状態: `announced` / world-model / simulation / robotics / digital-twin / sim-to-real
 
+## NVIDIA AlpaSim
+
+- **2026-08-04** [NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use](https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/)
+
+  NVIDIAは、Alpamayo 2 Superを商用利用向けの開放モデルとして公開し、自動運転車の推論と閉ループ検証に使う学習・評価の流れを示した。
+
+  出典: NVIDIA / 状態: `updated` / world-model / autonomous-driving / simulation / physical-ai / synthetic-data
+
 ## NVIDIA Omniverse
 
+- **2026-08-06** [Into the Omniverse: How Open World Models Push the Frontier of Physical AI](https://blogs.nvidia.com/blog/open-world-models-physical-ai/)
+
+  NVIDIAは、Cosmos 3を軸に世界モデル、Omniverseベースのシミュレーション、合成データ生成を組み合わせ、ロボット、自動運転、映像AI向けの物理AI開発を整理した。
+
+  出典: NVIDIA / 状態: `updated` / world-model / simulation / physical-ai / synthetic-data / digital-twin
 - **2026-07-20** [NVIDIA Agent Toolkit Expands With New Omniverse Libraries, Putting AI Agents to Work Building Simulation-Ready Worlds](https://nvidianews.nvidia.com/news/nvidia-agent-toolkit-expands-with-new-omniverse-libraries-putting-ai-agents-to-work-building-simulation-ready-worlds)
 
   NVIDIAはAgent ToolkitにOmniverseライブラリを追加し、AIエージェントがセンサーシミュレーション、GPU物理、SimReady資産検証を扱えるようにした。Blender向けblueprintやOpenUSD、SimReady関連の公開導線も含み、シミュレーション準備の作業を前進させる内容だった。

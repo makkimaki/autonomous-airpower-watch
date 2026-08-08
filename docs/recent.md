@@ -2,6 +2,26 @@
 
 公開一次情報を中心に、CCA、UAV、航空戦闘AI、自律システム向け世界モデルとシミュレータの動きを新しい順に掲載します。
 
+- **2026-08-06** [Into the Omniverse: How Open World Models Push the Frontier of Physical AI](https://blogs.nvidia.com/blog/open-world-models-physical-ai/)
+
+  NVIDIAは、Cosmos 3を軸に世界モデル、Omniverseベースのシミュレーション、合成データ生成を組み合わせ、ロボット、自動運転、映像AI向けの物理AI開発を整理した。
+
+  出典: NVIDIA / 状態: `updated` / world-model / simulation / physical-ai / synthetic-data / digital-twin
+- **2026-08-04** [NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use](https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/)
+
+  NVIDIAは、Alpamayo 2 Superを商用利用向けの開放モデルとして公開し、自動運転車の推論と閉ループ検証に使う学習・評価の流れを示した。
+
+  出典: NVIDIA / 状態: `updated` / world-model / autonomous-driving / simulation / physical-ai / synthetic-data
+- **2026-07-29** [“We are the ember”: Gen. Dale White demands speed on Air Force programs](https://www.af.mil/News/Article-Display/Article/4558959/we-are-the-ember-gen-dale-white-demands-speed-on-air-force-programs/)
+
+  Gen. Dale WhiteはLCIDで、CCAを含む主要プログラムの迅速化とオープンアーキテクチャの徹底を訴え、B-21やF-47を含むポートフォリオの進捗にも触れた。
+
+  出典: U.S. Air Force / 状態: `updated` / CCA / mission-autonomy / program-milestone
+- **2026-07-28** [Air Force tests Collaborative Combat Aircraft at Creech](https://www.acc.af.mil/News/Article-Display/Article/4557174/air-force-tests-collaborative-combat-aircraft-at-creech/)
+
+  米空軍はCreech AFBでCCA Experimental Operations Unitの演習を公表し、YFQ-42AとYFQ-44Aの整備、燃料補給、兵装搭載を通じて前方展開時の運用手順を検証した。
+
+  出典: U.S. Air Force / 状態: `flight-test` / CCA / flight-test / operational-readiness
 - **2026-07-23** [不整地環境における新規視点画像合成の検証役務](https://www.mod.go.jp/atla/data/info/ny_kenkyu_riku/pdf/koukoku/koukoku08-015.pdf)
 
   防衛装備庁陸上装備研究所は、不整地環境における新規視点画像合成の検証役務を公告した。公開文面は検証対象を明確に示すが、本文中の外部参照は確認できなかった。

@@ -23,6 +23,14 @@
 
   出典: DARPA / 状態: `flight-test` / air-combat-ai / human-machine-teaming / flight-test
 
+## B-21 Raider
+
+- **2026-07-29** [“We are the ember”: Gen. Dale White demands speed on Air Force programs](https://www.af.mil/News/Article-Display/Article/4558959/we-are-the-ember-gen-dale-white-demands-speed-on-air-force-programs/)
+
+  Gen. Dale WhiteはLCIDで、CCAを含む主要プログラムの迅速化とオープンアーキテクチャの徹底を訴え、B-21やF-47を含むポートフォリオの進捗にも触れた。
+
+  出典: U.S. Air Force / 状態: `updated` / CCA / mission-autonomy / program-milestone
+
 ## Barracuda-500
 
 - **2026-07-15** [Anduril, Department of War Sign Framework Agreement for Air-Launched Barracuda-500](https://www.anduril.com/news/anduril-department-of-war-sign-framework-agreement-for-air-launched-barracuda-500)
@@ -41,6 +49,16 @@
 
 ## Collaborative Combat Aircraft
 
+- **2026-07-29** [“We are the ember”: Gen. Dale White demands speed on Air Force programs](https://www.af.mil/News/Article-Display/Article/4558959/we-are-the-ember-gen-dale-white-demands-speed-on-air-force-programs/)
+
+  Gen. Dale WhiteはLCIDで、CCAを含む主要プログラムの迅速化とオープンアーキテクチャの徹底を訴え、B-21やF-47を含むポートフォリオの進捗にも触れた。
+
+  出典: U.S. Air Force / 状態: `updated` / CCA / mission-autonomy / program-milestone
+- **2026-07-28** [Air Force tests Collaborative Combat Aircraft at Creech](https://www.acc.af.mil/News/Article-Display/Article/4557174/air-force-tests-collaborative-combat-aircraft-at-creech/)
+
+  米空軍はCreech AFBでCCA Experimental Operations Unitの演習を公表し、YFQ-42AとYFQ-44Aの整備、燃料補給、兵装搭載を通じて前方展開時の運用手順を検証した。
+
+  出典: U.S. Air Force / 状態: `flight-test` / CCA / flight-test / operational-readiness
 - **2026-07-15** [Air Force conducts live-fire test for Collaborative Combat Aircraft program](https://www.af.mil/News/Article-Display/Article/4545856/air-force-conducts-live-fire-test-for-collaborative-combat-aircraft-program/)
 
   米空軍はYFQ-44A Collaborative Combat Aircraftの実弾投射試験を公表し、Mojave上空の限定空域でAIM-120をデジタル目標に発射したと明らかにした。人間の監督を維持したまま、段階的試験で機体と兵器の統合を検証している。
@@ -60,6 +78,14 @@
 
   出典: U.S. Air Force / 状態: `prototype` / CCA / program-milestone
 
+## F-47
+
+- **2026-07-29** [“We are the ember”: Gen. Dale White demands speed on Air Force programs](https://www.af.mil/News/Article-Display/Article/4558959/we-are-the-ember-gen-dale-white-demands-speed-on-air-force-programs/)
+
+  Gen. Dale WhiteはLCIDで、CCAを含む主要プログラムの迅速化とオープンアーキテクチャの徹底を訴え、B-21やF-47を含むポートフォリオの進捗にも触れた。
+
+  出典: U.S. Air Force / 状態: `updated` / CCA / mission-autonomy / program-milestone
+
 ## NVIDIA Agent Toolkit
 
 - **2026-07-20** [NVIDIA Agent Toolkit Expands With New Omniverse Libraries, Putting AI Agents to Work Building Simulation-Ready Worlds](https://nvidianews.nvidia.com/news/nvidia-agent-toolkit-expands-with-new-omniverse-libraries-putting-ai-agents-to-work-building-simulation-ready-worlds)
@@ -70,6 +96,16 @@
 
 ## NVIDIA Cosmos
 
+- **2026-08-06** [Into the Omniverse: How Open World Models Push the Frontier of Physical AI](https://blogs.nvidia.com/blog/open-world-models-physical-ai/)
+
+  NVIDIAは、Cosmos 3を軸に世界モデル、Omniverseベースのシミュレーション、合成データ生成を組み合わせ、ロボット、自動運転、映像AI向けの物理AI開発を整理した。
+
+  出典: NVIDIA / 状態: `updated` / world-model / simulation / physical-ai / synthetic-data / digital-twin
+- **2026-08-04** [NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use](https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/)
+
+  NVIDIAは、Alpamayo 2 Superを商用利用向けの開放モデルとして公開し、自動運転車の推論と閉ループ検証に使う学習・評価の流れを示した。
+
+  出典: NVIDIA / 状態: `updated` / world-model / autonomous-driving / simulation / physical-ai / synthetic-data
 - **2026-07-15** [Japan’s Robotics and Manufacturing Leaders Build on NVIDIA Cosmos to Advance Physical AI Frontier](https://nvidianews.nvidia.com/news/japans-robotics-and-manufacturing-leaders-build-on-nvidia-cosmos-to-advance-physical-ai-frontier)
 
   NVIDIAは、日本の物理AI関係者がCosmos、Isaac、Metropolis、Jetsonを基盤に世界モデルとロボット開発を進めていると発表した。Fujitsuの協調制御基盤構想や、Cosmos 3 Edge、Omniverse NuRec、Newton、Isaac Simを使うシミュレーションと実機移行の取り組みが含まれる。
