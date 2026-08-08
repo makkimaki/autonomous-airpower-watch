@@ -1,5 +1,191 @@
 [
   {
+    "id": "2026-08-06-open-world-models-physical-ai",
+    "title": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
+    "date": "2026-08-06",
+    "collected_at": "2026-08-08",
+    "url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
+    "source": "NVIDIA",
+    "source_type": "company",
+    "countries": ["US"],
+    "domains": ["autonomous-driving", "mobile-robotics", "robotics"],
+    "organizations": ["NVIDIA"],
+    "companies": ["NVIDIA"],
+    "programs": ["NVIDIA Cosmos"],
+    "aircraft": [],
+    "models": ["Cosmos 3"],
+    "simulators": ["NVIDIA Omniverse"],
+    "topics": ["world-model", "simulation", "physical-ai", "synthetic-data", "digital-twin"],
+    "status": "updated",
+    "summary_ja": "NVIDIAは、Cosmos 3を軸に世界モデル、Omniverseベースのシミュレーション、合成データ生成を組み合わせ、ロボット、自動運転、映像AI向けの物理AI開発を整理した。",
+    "confidence": "primary",
+    "citation_scan_status": "scanned",
+    "citations": [
+      {
+        "url": "https://www.nvidia.com/en-us/ai/cosmos/",
+        "title": "NVIDIA Cosmos",
+        "type": "self"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/glossary/world-models/",
+        "title": "What Is a World Model?",
+        "type": "reference"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/omniverse/",
+        "title": "NVIDIA Omniverse",
+        "type": "self"
+      },
+      {
+        "url": "https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf",
+        "title": "Cosmos 3: Omnimodal World Models for Physical AI",
+        "type": "reference"
+      },
+      {
+        "url": "https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3/",
+        "title": "Develop Physical AI Reasoning, World, and Action Models with NVIDIA Cosmos 3",
+        "type": "reference"
+      },
+      {
+        "url": "https://huggingface.co/collections/nvidia/cosmos3",
+        "title": "Cosmos3 - a nvidia Collection",
+        "type": "reference"
+      },
+      {
+        "url": "https://github.com/nvidia-cosmos",
+        "title": "NVIDIA Cosmos",
+        "type": "reference"
+      },
+      {
+        "url": "https://nvidianews.nvidia.com/news/japans-robotics-and-manufacturing-leaders-build-on-nvidia-cosmos-to-advance-physical-ai-frontier",
+        "title": "Japan’s Robotics and Manufacturing Leaders Build on NVIDIA Cosmos to Advance Physical AI Frontier",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "id": "2026-08-04-nvidia-alpamayo-2-super-commercial-use",
+    "title": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
+    "date": "2026-08-04",
+    "collected_at": "2026-08-08",
+    "url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/",
+    "source": "NVIDIA",
+    "source_type": "company",
+    "countries": ["US"],
+    "domains": ["autonomous-driving"],
+    "organizations": ["NVIDIA"],
+    "companies": ["NVIDIA"],
+    "programs": ["NVIDIA Cosmos"],
+    "aircraft": [],
+    "models": ["NVIDIA Alpamayo 2 Super", "NVIDIA Cosmos 3 Super Reasoner"],
+    "simulators": ["NVIDIA AlpaSim"],
+    "topics": ["world-model", "autonomous-driving", "simulation", "physical-ai", "synthetic-data"],
+    "status": "updated",
+    "summary_ja": "NVIDIAは、Alpamayo 2 Superを商用利用向けの開放モデルとして公開し、自動運転車の推論と閉ループ検証に使う学習・評価の流れを示した。",
+    "confidence": "primary",
+    "citation_scan_status": "scanned",
+    "citations": [
+      {
+        "url": "https://huggingface.co/nvidia/Alpamayo2-Super",
+        "title": "nvidia/Alpamayo2-Super · Hugging Face",
+        "type": "reference"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/ai/cosmos/",
+        "title": "NVIDIA Cosmos",
+        "type": "self"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/ai-trust-center/halos/autonomous-vehicles/",
+        "title": "Autonomous Vehicle (AV) Safety | NVIDIA Halos",
+        "type": "self"
+      },
+      {
+        "url": "https://developer.nvidia.com/drive/downloads?sortBy=drive_downloads%2Fsort%2Fdate%3Adesc",
+        "title": "DRIVE Downloads | NVIDIA Developer",
+        "type": "self"
+      }
+    ]
+  },
+  {
+    "id": "2026-07-29-we-are-the-ember-gen-dale-white-demands-speed-on-air-force-programs",
+    "title": "“We are the ember”: Gen. Dale White demands speed on Air Force programs",
+    "date": "2026-07-29",
+    "collected_at": "2026-08-08",
+    "url": "https://www.af.mil/News/Article-Display/Article/4558959/we-are-the-ember-gen-dale-white-demands-speed-on-air-force-programs/",
+    "source": "U.S. Air Force",
+    "source_type": "government",
+    "countries": ["US"],
+    "domains": ["airpower"],
+    "organizations": ["U.S. Air Force", "Air Force Life Cycle Management Center"],
+    "companies": [],
+    "programs": ["Collaborative Combat Aircraft", "B-21 Raider", "F-47"],
+    "aircraft": [],
+    "models": [],
+    "simulators": [],
+    "topics": ["CCA", "mission-autonomy", "program-milestone"],
+    "status": "updated",
+    "summary_ja": "Gen. Dale WhiteはLCIDで、CCAを含む主要プログラムの迅速化とオープンアーキテクチャの徹底を訴え、B-21やF-47を含むポートフォリオの進捗にも触れた。",
+    "confidence": "primary",
+    "citation_scan_status": "scanned",
+    "citations": [
+      {
+        "url": "https://www.af.mil/About-Us/Biographies/Display/Article/2268058/dale-r-white/",
+        "title": "DALE R. WHITE",
+        "type": "self"
+      },
+      {
+        "url": "https://www.aflcmc.af.mil/LCID/",
+        "title": "Life Cycle Industry Days",
+        "type": "self"
+      },
+      {
+        "url": "https://www.aflcmc.af.mil/",
+        "title": "AFLCMC",
+        "type": "self"
+      },
+      {
+        "url": "https://www.wpafb.af.mil/",
+        "title": "Wright-Patterson Air Force Base > Home",
+        "type": "self"
+      },
+      {
+        "url": "https://www.ellsworth.af.mil/News/Article-Display/Article/4413059/daf-increases-b-21-raider-production-capacity-to-deliver-combat-capability-fast/",
+        "title": "DAF increases B-21 Raider production capacity to deliver combat capability faster",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "id": "2026-07-28-air-force-tests-collaborative-combat-aircraft-at-creech",
+    "title": "Air Force tests Collaborative Combat Aircraft at Creech",
+    "date": "2026-07-28",
+    "collected_at": "2026-08-08",
+    "url": "https://www.acc.af.mil/News/Article-Display/Article/4557174/air-force-tests-collaborative-combat-aircraft-at-creech/",
+    "source": "U.S. Air Force",
+    "source_type": "government",
+    "countries": ["US"],
+    "domains": ["airpower"],
+    "organizations": ["U.S. Air Force", "Air Combat Command"],
+    "companies": [],
+    "programs": ["Collaborative Combat Aircraft"],
+    "aircraft": ["YFQ-42A", "YFQ-44A"],
+    "models": [],
+    "simulators": [],
+    "topics": ["CCA", "flight-test", "operational-readiness"],
+    "status": "flight-test",
+    "summary_ja": "米空軍はCreech AFBでCCA Experimental Operations Unitの演習を公表し、YFQ-42AとYFQ-44Aの整備、燃料補給、兵装搭載を通じて前方展開時の運用手順を検証した。",
+    "confidence": "primary",
+    "citation_scan_status": "scanned",
+    "citations": [
+      {
+        "url": "https://www.acc.af.mil/News/Article-Display/Article/4208634/experimental-operations-unit-activated-accelerating-collaborative-combat-aircra/",
+        "title": "Experimental Operations Unit activated, accelerating Collaborative Combat Aircraft integration",
+        "type": "related"
+      }
+    ]
+  },
+  {
     "id": "2024-04-17-darpa-ace-ai-aerospace",
     "title": "ACE Program Achieves World First for AI in Aerospace",
     "date": "2024-04-17",

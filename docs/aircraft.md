@@ -49,6 +49,11 @@
 
 ## YFQ-42A
 
+- **2026-07-28** [Air Force tests Collaborative Combat Aircraft at Creech](https://www.acc.af.mil/News/Article-Display/Article/4557174/air-force-tests-collaborative-combat-aircraft-at-creech/)
+
+  米空軍はCreech AFBでCCA Experimental Operations Unitの演習を公表し、YFQ-42AとYFQ-44Aの整備、燃料補給、兵装搭載を通じて前方展開時の運用手順を検証した。
+
+  出典: U.S. Air Force / 状態: `flight-test` / CCA / flight-test / operational-readiness
 - **2025-03-03** [Air Force designates two Mission Design Series for collaborative combat aircraft](https://www.acc.af.mil/News/Article-Display/Article/4103800/air-force-designates-two-mission-design-series-for-collaborative-combat-aircraft/)
 
   米空軍は、CCA Increment 1のGeneral Atomics案をYFQ-42A、Anduril案をYFQ-44Aとして正式指定した。
@@ -57,6 +62,11 @@
 
 ## YFQ-44A
 
+- **2026-07-28** [Air Force tests Collaborative Combat Aircraft at Creech](https://www.acc.af.mil/News/Article-Display/Article/4557174/air-force-tests-collaborative-combat-aircraft-at-creech/)
+
+  米空軍はCreech AFBでCCA Experimental Operations Unitの演習を公表し、YFQ-42AとYFQ-44Aの整備、燃料補給、兵装搭載を通じて前方展開時の運用手順を検証した。
+
+  出典: U.S. Air Force / 状態: `flight-test` / CCA / flight-test / operational-readiness
 - **2026-07-15** [Air Force conducts live-fire test for Collaborative Combat Aircraft program](https://www.af.mil/News/Article-Display/Article/4545856/air-force-conducts-live-fire-test-for-collaborative-combat-aircraft-program/)
 
   米空軍はYFQ-44A Collaborative Combat Aircraftの実弾投射試験を公表し、Mojave上空の限定空域でAIM-120をデジタル目標に発射したと明らかにした。人間の監督を維持したまま、段階的試験で機体と兵器の統合を検証している。
