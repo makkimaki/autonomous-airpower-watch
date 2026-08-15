@@ -25,6 +25,30 @@
 
   出典: U.S. Air Force / 状態: `prototype` / CCA / program-milestone
 
+## AVIDrone Inc.
+
+- **2026-08-11** [Lift Challenge results](https://www.darpa.mil/news/2026/lift-challenge-awards)
+
+  DARPAはLift Challengeの結果を公表し、参加チームの評価と賞の配分を示した。
+
+  出典: DARPA / 状態: `selected` / UAV / program-milestone
+
+## Calspan Corporation
+
+- **2026-08-04** [X-62 VISTA sets precedents with mission systems upgrades, aligns human research with AI development](https://www.wpafb.af.mil/News/Article-Display/Article/4565350/x-62-vista-sets-precedents-with-mission-systems-upgrades-aligns-human-researche/)
+
+  X-62 VISTAのミッションシステム改修で、AI開発と有人研究の接続を進める試験結果が示された。
+
+  出典: U.S. Air Force / 状態: `flight-test` / air-combat-ai / mission-autonomy / flight-test
+
+## DefendTex
+
+- **2026-08-11** [Lift Challenge results](https://www.darpa.mil/news/2026/lift-challenge-awards)
+
+  DARPAはLift Challengeの結果を公表し、参加チームの評価と賞の配分を示した。
+
+  出典: DARPA / 状態: `selected` / UAV / program-milestone
+
 ## General Atomics
 
 - **2026-06-17** [Air Force advances future of air superiority with CCA contracts](https://www.af.mil/News/Article-Display/Article/4520575/air-force-advances-future-of-air-superiority-with-cca-contracts/)
@@ -37,6 +61,22 @@
   米空軍は、CCA Increment 1のGeneral Atomics案をYFQ-42A、Anduril案をYFQ-44Aとして正式指定した。
 
   出典: U.S. Air Force / 状態: `prototype` / CCA / program-milestone
+
+## Lockheed Martin
+
+- **2026-08-04** [X-62 VISTA sets precedents with mission systems upgrades, aligns human research with AI development](https://www.wpafb.af.mil/News/Article-Display/Article/4565350/x-62-vista-sets-precedents-with-mission-systems-upgrades-aligns-human-researche/)
+
+  X-62 VISTAのミッションシステム改修で、AI開発と有人研究の接続を進める試験結果が示された。
+
+  出典: U.S. Air Force / 状態: `flight-test` / air-combat-ai / mission-autonomy / flight-test
+
+## MTech Operations LLC
+
+- **2026-08-11** [Lift Challenge results](https://www.darpa.mil/news/2026/lift-challenge-awards)
+
+  DARPAはLift Challengeの結果を公表し、参加チームの評価と賞の配分を示した。
+
+  出典: DARPA / 状態: `selected` / UAV / program-milestone
 
 ## NVIDIA
 
@@ -65,3 +105,27 @@
   NVIDIAは、ロボットと自動運転車向けの世界生成・推論モデルと、Omniverseを用いた合成データ生成ワークフローの拡張を発表した。
 
   出典: NVIDIA / 状態: `updated` / world-model / synthetic-data / simulation / physical-ai
+
+## Portal Aircraft Company
+
+- **2026-08-11** [Lift Challenge results](https://www.darpa.mil/news/2026/lift-challenge-awards)
+
+  DARPAはLift Challengeの結果を公表し、参加チームの評価と賞の配分を示した。
+
+  出典: DARPA / 状態: `selected` / UAV / program-milestone
+
+## RTX
+
+- **2026-08-04** [X-62 VISTA sets precedents with mission systems upgrades, aligns human research with AI development](https://www.wpafb.af.mil/News/Article-Display/Article/4565350/x-62-vista-sets-precedents-with-mission-systems-upgrades-aligns-human-researche/)
+
+  X-62 VISTAのミッションシステム改修で、AI開発と有人研究の接続を進める試験結果が示された。
+
+  出典: U.S. Air Force / 状態: `flight-test` / air-combat-ai / mission-autonomy / flight-test
+
+## Xtreme Aerial Concepts
+
+- **2026-08-11** [Lift Challenge results](https://www.darpa.mil/news/2026/lift-challenge-awards)
+
+  DARPAはLift Challengeの結果を公表し、参加チームの評価と賞の配分を示した。
+
+  出典: DARPA / 状態: `selected` / UAV / program-milestone

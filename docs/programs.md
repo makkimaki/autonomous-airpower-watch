@@ -49,6 +49,11 @@
 
 ## Collaborative Combat Aircraft
 
+- **2026-08-13** [DAF completes key prototype evaluations for Collaborative Combat Aircraft C2E](https://www.aflcmc.af.mil/NEWS/Article/4573342/daf-completes-key-prototype-evaluations-for-collaborative-combat-aircraft-comma/)
+
+  DAFはCollaborative Combat AircraftのC2Eに向けた試作機評価を完了し、開発の次段階へ進める材料を整えた。
+
+  出典: U.S. Air Force / 状態: `prototype` / CCA / mission-autonomy / program-milestone
 - **2026-07-29** [“We are the ember”: Gen. Dale White demands speed on Air Force programs](https://www.af.mil/News/Article-Display/Article/4558959/we-are-the-ember-gen-dale-white-demands-speed-on-air-force-programs/)
 
   Gen. Dale WhiteはLCIDで、CCAを含む主要プログラムの迅速化とオープンアーキテクチャの徹底を訴え、B-21やF-47を含むポートフォリオの進捗にも触れた。
@@ -77,6 +82,14 @@
   米空軍は、CCA Increment 1のGeneral Atomics案をYFQ-42A、Anduril案をYFQ-44Aとして正式指定した。
 
   出典: U.S. Air Force / 状態: `prototype` / CCA / program-milestone
+
+## DARPA Lift Challenge
+
+- **2026-08-11** [Lift Challenge results](https://www.darpa.mil/news/2026/lift-challenge-awards)
+
+  DARPAはLift Challengeの結果を公表し、参加チームの評価と賞の配分を示した。
+
+  出典: DARPA / 状態: `selected` / UAV / program-milestone
 
 ## F-47
 

@@ -4,6 +4,11 @@
 
 ## air-combat-ai
 
+- **2026-08-04** [X-62 VISTA sets precedents with mission systems upgrades, aligns human research with AI development](https://www.wpafb.af.mil/News/Article-Display/Article/4565350/x-62-vista-sets-precedents-with-mission-systems-upgrades-aligns-human-researche/)
+
+  X-62 VISTAのミッションシステム改修で、AI開発と有人研究の接続を進める試験結果が示された。
+
+  出典: U.S. Air Force / 状態: `flight-test` / air-combat-ai / mission-autonomy / flight-test
 - **2026-07-16** [DARPA and U.S. Air Force fly AI-controlled F-16, paving the way for autonomous air combat](https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16)
 
   DARPAと米空軍は、VENOM改修F-16による空中試験でAIが飛行を自律制御したと発表した。AIRプログラムでは、この試験機群を使って有人機と無人機の協同や将来のCCAに向けた戦術自律を実飛行で検証する。
@@ -25,6 +30,11 @@
 
 ## CCA
 
+- **2026-08-13** [DAF completes key prototype evaluations for Collaborative Combat Aircraft C2E](https://www.aflcmc.af.mil/NEWS/Article/4573342/daf-completes-key-prototype-evaluations-for-collaborative-combat-aircraft-comma/)
+
+  DAFはCollaborative Combat AircraftのC2Eに向けた試作機評価を完了し、開発の次段階へ進める材料を整えた。
+
+  出典: U.S. Air Force / 状態: `prototype` / CCA / mission-autonomy / program-milestone
 - **2026-07-29** [“We are the ember”: Gen. Dale White demands speed on Air Force programs](https://www.af.mil/News/Article-Display/Article/4558959/we-are-the-ember-gen-dale-white-demands-speed-on-air-force-programs/)
 
   Gen. Dale WhiteはLCIDで、CCAを含む主要プログラムの迅速化とオープンアーキテクチャの徹底を訴え、B-21やF-47を含むポートフォリオの進捗にも触れた。
@@ -53,6 +63,11 @@
 
 ## contract
 
+- **2026-08-10** [無人機システム自律同時制御機能の設計・検証の企画競争募集要領](https://www.mod.go.jp/atla/data/info/ny_kenkyu_shinsedai/ippan.html)
+
+  防衛装備庁は、無人機システムの自律同時制御機能の設計・検証に関する企画競争を公示した。
+
+  出典: 防衛装備庁 / 状態: `solicitation` / UAV / mission-autonomy / contract
 - **2026-07-15** [Anduril, Department of War Sign Framework Agreement for Air-Launched Barracuda-500](https://www.anduril.com/news/anduril-department-of-war-sign-framework-agreement-for-air-launched-barracuda-500)
 
   Andurilは、空中発射型Barracuda-500に関する枠組み合意を米国防当局と結んだと発表した。記事は量産拡大の枠組みを示すもので、機体の新規性能を追加で推定するものではない。
@@ -84,6 +99,11 @@
 
 ## flight-test
 
+- **2026-08-04** [X-62 VISTA sets precedents with mission systems upgrades, aligns human research with AI development](https://www.wpafb.af.mil/News/Article-Display/Article/4565350/x-62-vista-sets-precedents-with-mission-systems-upgrades-aligns-human-researche/)
+
+  X-62 VISTAのミッションシステム改修で、AI開発と有人研究の接続を進める試験結果が示された。
+
+  出典: U.S. Air Force / 状態: `flight-test` / air-combat-ai / mission-autonomy / flight-test
 - **2026-07-28** [Air Force tests Collaborative Combat Aircraft at Creech](https://www.acc.af.mil/News/Article-Display/Article/4557174/air-force-tests-collaborative-combat-aircraft-at-creech/)
 
   米空軍はCreech AFBでCCA Experimental Operations Unitの演習を公表し、YFQ-42AとYFQ-44Aの整備、燃料補給、兵装搭載を通じて前方展開時の運用手順を検証した。
@@ -128,6 +148,26 @@
 
 ## mission-autonomy
 
+- **2026-08-13** [DAF completes key prototype evaluations for Collaborative Combat Aircraft C2E](https://www.aflcmc.af.mil/NEWS/Article/4573342/daf-completes-key-prototype-evaluations-for-collaborative-combat-aircraft-comma/)
+
+  DAFはCollaborative Combat AircraftのC2Eに向けた試作機評価を完了し、開発の次段階へ進める材料を整えた。
+
+  出典: U.S. Air Force / 状態: `prototype` / CCA / mission-autonomy / program-milestone
+- **2026-08-10** [無人機システム自律同時制御機能の設計・検証の企画競争募集要領](https://www.mod.go.jp/atla/data/info/ny_kenkyu_shinsedai/ippan.html)
+
+  防衛装備庁は、無人機システムの自律同時制御機能の設計・検証に関する企画競争を公示した。
+
+  出典: 防衛装備庁 / 状態: `solicitation` / UAV / mission-autonomy / contract
+- **2026-08-04** [X-62 VISTA sets precedents with mission systems upgrades, aligns human research with AI development](https://www.wpafb.af.mil/News/Article-Display/Article/4565350/x-62-vista-sets-precedents-with-mission-systems-upgrades-aligns-human-researche/)
+
+  X-62 VISTAのミッションシステム改修で、AI開発と有人研究の接続を進める試験結果が示された。
+
+  出典: U.S. Air Force / 状態: `flight-test` / air-combat-ai / mission-autonomy / flight-test
+- **2026-08-03** [Newest sUAS technology demonstrated at Game of Drones 26-2](https://www.afmc.af.mil/News/Article-Display/Article/4567758/newest-suas-technology-demonstrated-at-game-of-drones-26-2/)
+
+  Game of Drones 26-2で、sUASの新しい技術実証が行われ、評価の迅速化に向けた公開試験の流れが示された。
+
+  出典: U.S. Air Force / 状態: `prototype` / UAV / mission-autonomy
 - **2026-07-29** [“We are the ember”: Gen. Dale White demands speed on Air Force programs](https://www.af.mil/News/Article-Display/Article/4558959/we-are-the-ember-gen-dale-white-demands-speed-on-air-force-programs/)
 
   Gen. Dale WhiteはLCIDで、CCAを含む主要プログラムの迅速化とオープンアーキテクチャの徹底を訴え、B-21やF-47を含むポートフォリオの進捗にも触れた。
@@ -190,6 +230,16 @@
 
 ## program-milestone
 
+- **2026-08-13** [DAF completes key prototype evaluations for Collaborative Combat Aircraft C2E](https://www.aflcmc.af.mil/NEWS/Article/4573342/daf-completes-key-prototype-evaluations-for-collaborative-combat-aircraft-comma/)
+
+  DAFはCollaborative Combat AircraftのC2Eに向けた試作機評価を完了し、開発の次段階へ進める材料を整えた。
+
+  出典: U.S. Air Force / 状態: `prototype` / CCA / mission-autonomy / program-milestone
+- **2026-08-11** [Lift Challenge results](https://www.darpa.mil/news/2026/lift-challenge-awards)
+
+  DARPAはLift Challengeの結果を公表し、参加チームの評価と賞の配分を示した。
+
+  出典: DARPA / 状態: `selected` / UAV / program-milestone
 - **2026-07-29** [“We are the ember”: Gen. Dale White demands speed on Air Force programs](https://www.af.mil/News/Article-Display/Article/4558959/we-are-the-ember-gen-dale-white-demands-speed-on-air-force-programs/)
 
   Gen. Dale WhiteはLCIDで、CCAを含む主要プログラムの迅速化とオープンアーキテクチャの徹底を訴え、B-21やF-47を含むポートフォリオの進捗にも触れた。
@@ -298,6 +348,21 @@
 
 ## UAV
 
+- **2026-08-11** [Lift Challenge results](https://www.darpa.mil/news/2026/lift-challenge-awards)
+
+  DARPAはLift Challengeの結果を公表し、参加チームの評価と賞の配分を示した。
+
+  出典: DARPA / 状態: `selected` / UAV / program-milestone
+- **2026-08-10** [無人機システム自律同時制御機能の設計・検証の企画競争募集要領](https://www.mod.go.jp/atla/data/info/ny_kenkyu_shinsedai/ippan.html)
+
+  防衛装備庁は、無人機システムの自律同時制御機能の設計・検証に関する企画競争を公示した。
+
+  出典: 防衛装備庁 / 状態: `solicitation` / UAV / mission-autonomy / contract
+- **2026-08-03** [Newest sUAS technology demonstrated at Game of Drones 26-2](https://www.afmc.af.mil/News/Article-Display/Article/4567758/newest-suas-technology-demonstrated-at-game-of-drones-26-2/)
+
+  Game of Drones 26-2で、sUASの新しい技術実証が行われ、評価の迅速化に向けた公開試験の流れが示された。
+
+  出典: U.S. Air Force / 状態: `prototype` / UAV / mission-autonomy
 - **2026-07-20** [Introducing Thunder: Autonomous Attack Rotorcraft for the Near-Surface Fight](https://www.anduril.com/news/thunder)
 
   Andurilは、近接域戦闘向けの自律攻撃ロータークラフトThunderを紹介した。公開本文では機体の位置づけと設計思想が示されるが、未公表の運用能力は追加していない。

@@ -41,6 +41,11 @@
 
 ## X-62A VISTA
 
+- **2026-08-04** [X-62 VISTA sets precedents with mission systems upgrades, aligns human research with AI development](https://www.wpafb.af.mil/News/Article-Display/Article/4565350/x-62-vista-sets-precedents-with-mission-systems-upgrades-aligns-human-researche/)
+
+  X-62 VISTAのミッションシステム改修で、AI開発と有人研究の接続を進める試験結果が示された。
+
+  出典: U.S. Air Force / 状態: `flight-test` / air-combat-ai / mission-autonomy / flight-test
 - **2024-04-17** [ACE Program Achieves World First for AI in Aerospace](https://www.darpa.mil/news/2024/ace-ai-aerospace)
 
   DARPAは、AIアルゴリズムがX-62A VISTAを操縦し、有人F-16と空中戦試験を行ったACEプログラムの成果を公表した。

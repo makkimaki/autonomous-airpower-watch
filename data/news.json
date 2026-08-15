@@ -1,5 +1,176 @@
 [
   {
+    "id": "2026-08-13-cca-c2e-prototype-evaluations",
+    "title": "DAF completes key prototype evaluations for Collaborative Combat Aircraft C2E",
+    "date": "2026-08-13",
+    "collected_at": "2026-08-15",
+    "url": "https://www.aflcmc.af.mil/NEWS/Article/4573342/daf-completes-key-prototype-evaluations-for-collaborative-combat-aircraft-comma/",
+    "source": "U.S. Air Force",
+    "source_type": "government",
+    "countries": ["US"],
+    "domains": ["airpower"],
+    "organizations": [
+      "Department of the Air Force",
+      "Air Force Life Cycle Management Center",
+      "Air Force Agile Development Office",
+      "178th Wing"
+    ],
+    "companies": [],
+    "programs": ["Collaborative Combat Aircraft"],
+    "aircraft": [],
+    "models": [],
+    "simulators": [],
+    "topics": ["CCA", "mission-autonomy", "program-milestone"],
+    "status": "prototype",
+    "summary_ja": "DAFはCollaborative Combat AircraftのC2Eに向けた試作機評価を完了し、開発の次段階へ進める材料を整えた。",
+    "confidence": "primary",
+    "citation_scan_status": "scanned",
+    "citations": []
+  },
+  {
+    "id": "2026-08-11-darpa-lift-challenge-results",
+    "title": "Lift Challenge results",
+    "date": "2026-08-11",
+    "collected_at": "2026-08-15",
+    "url": "https://www.darpa.mil/news/2026/lift-challenge-awards",
+    "source": "DARPA",
+    "source_type": "government",
+    "countries": ["US"],
+    "domains": ["airpower"],
+    "organizations": [
+      "DARPA",
+      "National Museum of the U.S. Air Force"
+    ],
+    "companies": [
+      "AVIDrone Inc.",
+      "MTech Operations LLC",
+      "Xtreme Aerial Concepts",
+      "Portal Aircraft Company",
+      "DefendTex"
+    ],
+    "programs": ["DARPA Lift Challenge"],
+    "aircraft": [],
+    "models": [],
+    "simulators": [],
+    "topics": ["UAV", "program-milestone"],
+    "status": "selected",
+    "summary_ja": "DARPAはLift Challengeの結果を公表し、参加チームの評価と賞の配分を示した。",
+    "confidence": "primary",
+    "citation_scan_status": "scanned",
+    "citations": [
+      {
+        "url": "https://www.darpa.mil/lift",
+        "title": "DARPA Lift Challenge",
+        "type": "reference"
+      },
+      {
+        "url": "https://www.darpa.mil/news/2026/darpa-invites-first-wave-of-lift-challenge-competitors",
+        "title": "DARPA invites first wave of Lift Challenge competitors",
+        "type": "related"
+      },
+      {
+        "url": "https://www.darpa.mil/news/2026/national-museum-united-states-air-force-host-lift-challenge",
+        "title": "National Museum of the U.S. Air Force to host DARPA Lift Challenge",
+        "type": "related"
+      },
+      {
+        "url": "https://www.darpa.mil/news/2026/meet-lift-challenge-teams",
+        "title": "Meet the DARPA Lift Challenge teams",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "id": "2026-08-10-atla-autonomous-simultaneous-control-design-validation",
+    "title": "無人機システム自律同時制御機能の設計・検証の企画競争募集要領",
+    "date": "2026-08-10",
+    "collected_at": "2026-08-15",
+    "url": "https://www.mod.go.jp/atla/data/info/ny_kenkyu_shinsedai/ippan.html",
+    "source": "防衛装備庁",
+    "source_type": "government",
+    "countries": ["JP"],
+    "domains": ["airpower"],
+    "organizations": ["防衛装備庁"],
+    "companies": [],
+    "programs": [],
+    "aircraft": [],
+    "models": [],
+    "simulators": [],
+    "topics": ["UAV", "mission-autonomy", "contract"],
+    "status": "solicitation",
+    "summary_ja": "防衛装備庁は、無人機システムの自律同時制御機能の設計・検証に関する企画競争を公示した。",
+    "confidence": "primary",
+    "citation_scan_status": "scanned",
+    "citations": []
+  },
+  {
+    "id": "2026-08-04-x62-vista-mission-systems-upgrades",
+    "title": "X-62 VISTA sets precedents with mission systems upgrades, aligns human research with AI development",
+    "date": "2026-08-04",
+    "collected_at": "2026-08-15",
+    "url": "https://www.wpafb.af.mil/News/Article-Display/Article/4565350/x-62-vista-sets-precedents-with-mission-systems-upgrades-aligns-human-researche/",
+    "source": "U.S. Air Force",
+    "source_type": "government",
+    "countries": ["US"],
+    "domains": ["airpower"],
+    "organizations": [
+      "U.S. Air Force",
+      "U.S. Air Force Test Pilot School",
+      "Test Resource Management Center",
+      "Air Force Test Center",
+      "412th Test Wing"
+    ],
+    "companies": [
+      "Lockheed Martin",
+      "Calspan Corporation",
+      "RTX"
+    ],
+    "programs": [],
+    "aircraft": ["X-62A VISTA"],
+    "models": [],
+    "simulators": [],
+    "topics": ["air-combat-ai", "mission-autonomy", "flight-test"],
+    "status": "flight-test",
+    "summary_ja": "X-62 VISTAのミッションシステム改修で、AI開発と有人研究の接続を進める試験結果が示された。",
+    "confidence": "primary",
+    "citation_scan_status": "scanned",
+    "citations": []
+  },
+  {
+    "id": "2026-08-03-game-of-drones-suas-technology-demonstrated",
+    "title": "Newest sUAS technology demonstrated at Game of Drones 26-2",
+    "date": "2026-08-03",
+    "collected_at": "2026-08-15",
+    "url": "https://www.afmc.af.mil/News/Article-Display/Article/4567758/newest-suas-technology-demonstrated-at-game-of-drones-26-2/",
+    "source": "U.S. Air Force",
+    "source_type": "government",
+    "countries": ["US"],
+    "domains": ["airpower"],
+    "organizations": [
+      "U.S. Air Force",
+      "Air Force Materiel Command",
+      "Air Force Test Center",
+      "Defense Contract Management Agency"
+    ],
+    "companies": [],
+    "programs": [],
+    "aircraft": [],
+    "models": [],
+    "simulators": [],
+    "topics": ["UAV", "mission-autonomy"],
+    "status": "prototype",
+    "summary_ja": "Game of Drones 26-2で、sUASの新しい技術実証が行われ、評価の迅速化に向けた公開試験の流れが示された。",
+    "confidence": "primary",
+    "citation_scan_status": "scanned",
+    "citations": [
+      {
+        "url": "https://www.dcma.mil/News/Article/4552262/game-of-drones-highlights-edwards-air-force-base/",
+        "title": "Game of Drones' highlights Edwards Air Force Base",
+        "type": "related"
+      }
+    ]
+  },
+  {
     "id": "2026-08-06-open-world-models-physical-ai",
     "title": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
     "date": "2026-08-06",
