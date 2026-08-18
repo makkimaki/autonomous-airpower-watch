@@ -2,16 +2,41 @@
 
 公開一次情報を中心に、CCA、UAV、航空戦闘AI、自律システム向け世界モデルとシミュレータの動きを新しい順に掲載します。
 
+- **2026-08-13** [DAF completes key prototype evaluations for Collaborative Combat Aircraft C2E](https://www.aflcmc.af.mil/NEWS/Article/4573342/daf-completes-key-prototype-evaluations-for-collaborative-combat-aircraft-comma/)
+
+  DAFはCollaborative Combat AircraftのC2Eに向けた試作機評価を完了し、開発の次段階へ進める材料を整えた。
+
+  出典: U.S. Air Force / 状態: `prototype` / CCA / mission-autonomy / program-milestone
+- **2026-08-11** [Lift Challenge results](https://www.darpa.mil/news/2026/lift-challenge-awards)
+
+  DARPAはLift Challengeの結果を公表し、参加チームの評価と賞の配分を示した。
+
+  出典: DARPA / 状態: `selected` / UAV / program-milestone
+- **2026-08-10** [無人機システム自律同時制御機能の設計・検証の企画競争募集要領](https://www.mod.go.jp/atla/data/info/ny_kenkyu_shinsedai/ippan.html)
+
+  防衛装備庁は、無人機システムの自律同時制御機能の設計・検証に関する企画競争を公示した。
+
+  出典: 防衛装備庁 / 状態: `solicitation` / UAV / mission-autonomy / contract
 - **2026-08-06** [Into the Omniverse: How Open World Models Push the Frontier of Physical AI](https://blogs.nvidia.com/blog/open-world-models-physical-ai/)
 
   NVIDIAは、Cosmos 3を軸に世界モデル、Omniverseベースのシミュレーション、合成データ生成を組み合わせ、ロボット、自動運転、映像AI向けの物理AI開発を整理した。
 
   出典: NVIDIA / 状態: `updated` / world-model / simulation / physical-ai / synthetic-data / digital-twin
+- **2026-08-04** [X-62 VISTA sets precedents with mission systems upgrades, aligns human research with AI development](https://www.wpafb.af.mil/News/Article-Display/Article/4565350/x-62-vista-sets-precedents-with-mission-systems-upgrades-aligns-human-researche/)
+
+  X-62 VISTAのミッションシステム改修で、AI開発と有人研究の接続を進める試験結果が示された。
+
+  出典: U.S. Air Force / 状態: `flight-test` / air-combat-ai / mission-autonomy / flight-test
 - **2026-08-04** [NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use](https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/)
 
   NVIDIAは、Alpamayo 2 Superを商用利用向けの開放モデルとして公開し、自動運転車の推論と閉ループ検証に使う学習・評価の流れを示した。
 
   出典: NVIDIA / 状態: `updated` / world-model / autonomous-driving / simulation / physical-ai / synthetic-data
+- **2026-08-03** [Newest sUAS technology demonstrated at Game of Drones 26-2](https://www.afmc.af.mil/News/Article-Display/Article/4567758/newest-suas-technology-demonstrated-at-game-of-drones-26-2/)
+
+  Game of Drones 26-2で、sUASの新しい技術実証が行われ、評価の迅速化に向けた公開試験の流れが示された。
+
+  出典: U.S. Air Force / 状態: `prototype` / UAV / mission-autonomy
 - **2026-07-29** [“We are the ember”: Gen. Dale White demands speed on Air Force programs](https://www.af.mil/News/Article-Display/Article/4558959/we-are-the-ember-gen-dale-white-demands-speed-on-air-force-programs/)
 
   Gen. Dale WhiteはLCIDで、CCAを含む主要プログラムの迅速化とオープンアーキテクチャの徹底を訴え、B-21やF-47を含むポートフォリオの進捗にも触れた。
