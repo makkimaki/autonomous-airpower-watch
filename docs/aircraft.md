@@ -2,8 +2,21 @@
 
 機体名称別の発表と開発段階です。
 
+## Altius
+
+- **2026-09-23** [Strengthens Security Partnership with Taiwan through Altius milestones](https://www.anduril.com/news/strengthens-security-partnership-with-taiwan-through-altius-milestones)
+
+  Andurilは台湾向けAltius関連の進捗と現地投資拡大を公表し、無人機協力の継続を示した。
+
+  出典: Anduril / 状態: `updated` / UAV / partnership / updated
+
 ## Barracuda-500
 
+- **2026-09-23** [Barracuda becomes first WOSA-compliant weapon in large-scale production](https://www.anduril.com/news/barracuda-becomes-first-wosa-compliant-weapon-in-large-scale-production)
+
+  AndurilはBarracuda-500がWOSA準拠の兵器として量産段階に入ったと公表した。
+
+  出典: Anduril / 状態: `production` / UAV / mission-autonomy / production
 - **2026-07-15** [Anduril, Department of War Sign Framework Agreement for Air-Launched Barracuda-500](https://www.anduril.com/news/anduril-department-of-war-sign-framework-agreement-for-air-launched-barracuda-500)
 
   Andurilは、空中発射型Barracuda-500に関する枠組み合意を米国防当局と結んだと発表した。記事は量産拡大の枠組みを示すもので、機体の新規性能を追加で推定するものではない。
@@ -30,6 +43,30 @@
   米空軍はCCA Increment 1の機体とミッション自律ソフトウェアに関する複数契約を発表し、ハードウェアと自律ソフトウェアを分離して競争させる方針を示した。
 
   出典: U.S. Air Force / 状態: `contracted` / CCA / mission-autonomy / contract / production
+
+## MQ-20 Avenger
+
+- **2026-10-05** [GA-ASI Teams With U.S. Navy To Demonstrate Collaborative Autonomous Mission Planning for Simulated Battle](https://www.ga-asi.com/ga-asi-teams-with-us-navy-to-demonstrate-collaborative-autonomous-mission-planning-for-simulated-battle)
+
+  GA-ASIと米海軍はMQ-20 Avengerを使った協調自律ミッション計画のデモを示し、LVC環境と機上ソフトを接続する運用実証を進めた。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / mission-autonomy / simulation
+
+## MQ-9B
+
+- **2026-10-01** [GA-ASI Demonstrates Disaster Relief Comms System With SoftBank Corp.](https://www.ga-asi.com/ga-asi-demonstrates-disaster-relief-comms-system-with-softbank-corp)
+
+  GA-ASIはSoftBank Corp.の災害復旧向け通信ペイロードをMQ-9Bで実演し、機上中継局としての利用可能性を示した。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / communications / flight-test
+
+## MQ-9B SeaGuardian
+
+- **2026-09-30** [U.S. Navy Evaluates SeaGuardian UAS at Whidbey Island](https://www.ga-asi.com/us-navy-evaluates-seaguardian-uas-at-whidbey-island)
+
+  GA-ASIはSeaGuardianをワシントン州ホイッドビー島で海軍の評価に投入し、Northern EdgeやIntegrated Battle Problemでの実績を踏まえた運用評価を示した。
+
+  出典: General Atomics Aeronautical Systems / 状態: `updated` / UAV / mission-autonomy / exercise
 
 ## Thunder
 

@@ -1,5 +1,266 @@
 [
   {
+    "id": "2026-09-30-gaasi-seaguardian-uas-whidbey-island",
+    "title": "U.S. Navy Evaluates SeaGuardian UAS at Whidbey Island",
+    "date": "2026-09-30",
+    "collected_at": "2026-10-06",
+    "url": "https://www.ga-asi.com/us-navy-evaluates-seaguardian-uas-at-whidbey-island",
+    "source": "General Atomics Aeronautical Systems",
+    "source_type": "company",
+    "countries": ["US"],
+    "domains": ["airpower"],
+    "organizations": ["General Atomics Aeronautical Systems", "U.S. Navy"],
+    "companies": ["General Atomics Aeronautical Systems"],
+    "programs": ["SeaGuardian", "Northern Edge", "Integrated Battle Problem"],
+    "aircraft": ["MQ-9B SeaGuardian"],
+    "models": [],
+    "simulators": [],
+    "topics": ["UAV", "mission-autonomy", "exercise"],
+    "status": "updated",
+    "summary_ja": "GA-ASIはSeaGuardianをワシントン州ホイッドビー島で海軍の評価に投入し、Northern EdgeやIntegrated Battle Problemでの実績を踏まえた運用評価を示した。",
+    "confidence": "primary",
+    "citation_scan_status": "scanned",
+    "citations": [
+      {
+        "url": "https://www.ga-asi.com/",
+        "title": "General Atomics Aeronautical Systems",
+        "type": "self"
+      },
+      {
+        "url": "https://www.ga-asi.com/ga-asi-seaguardian-supports-northern-edge-2023",
+        "title": "GA-ASI SeaGuardian Supports Northern Edge 2023",
+        "type": "related"
+      },
+      {
+        "url": "https://www.ga-asi.com/seaguardian-used-by-usn-in-support-of-integrated-battle-problem",
+        "title": "SeaGuardian Used by USN in Support of Integrated Battle Problem",
+        "type": "related"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-01-gaasi-softbank-disaster-relief-comms",
+    "title": "GA-ASI Demonstrates Disaster Relief Comms System With SoftBank Corp.",
+    "date": "2026-10-01",
+    "collected_at": "2026-10-06",
+    "url": "https://www.ga-asi.com/ga-asi-demonstrates-disaster-relief-comms-system-with-softbank-corp",
+    "source": "General Atomics Aeronautical Systems",
+    "source_type": "company",
+    "countries": ["US", "JP"],
+    "domains": ["airpower"],
+    "organizations": ["General Atomics Aeronautical Systems", "SoftBank Corp."],
+    "companies": ["General Atomics Aeronautical Systems", "SoftBank Corp."],
+    "programs": ["MQ-9B"],
+    "aircraft": ["MQ-9B"],
+    "models": [],
+    "simulators": [],
+    "topics": ["UAV", "communications", "flight-test"],
+    "status": "flight-test",
+    "summary_ja": "GA-ASIはSoftBank Corp.の災害復旧向け通信ペイロードをMQ-9Bで実演し、機上中継局としての利用可能性を示した。",
+    "confidence": "primary",
+    "citation_scan_status": "scanned",
+    "citations": [
+      {
+        "url": "https://www.ga-asi.com/",
+        "title": "General Atomics Aeronautical Systems",
+        "type": "self"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-05-gaasi-collaborative-autonomous-mission-planning-simulated-battle",
+    "title": "GA-ASI Teams With U.S. Navy To Demonstrate Collaborative Autonomous Mission Planning for Simulated Battle",
+    "date": "2026-10-05",
+    "collected_at": "2026-10-06",
+    "url": "https://www.ga-asi.com/ga-asi-teams-with-us-navy-to-demonstrate-collaborative-autonomous-mission-planning-for-simulated-battle",
+    "source": "General Atomics Aeronautical Systems",
+    "source_type": "company",
+    "countries": ["US"],
+    "domains": ["airpower"],
+    "organizations": ["General Atomics Aeronautical Systems", "U.S. Navy"],
+    "companies": ["General Atomics Aeronautical Systems"],
+    "programs": ["MQ-20 Avenger", "A-GRA", "TacACE", "Gray Flag 2026"],
+    "aircraft": ["MQ-20 Avenger"],
+    "models": [],
+    "simulators": [],
+    "topics": ["UAV", "mission-autonomy", "simulation"],
+    "status": "flight-test",
+    "summary_ja": "GA-ASIと米海軍はMQ-20 Avengerを使った協調自律ミッション計画のデモを示し、LVC環境と機上ソフトを接続する運用実証を進めた。",
+    "confidence": "primary",
+    "citation_scan_status": "scanned",
+    "citations": [
+      {
+        "url": "https://www.ga-asi.com/",
+        "title": "General Atomics Aeronautical Systems",
+        "type": "self"
+      }
+    ]
+  },
+  {
+    "id": "2026-09-23-anduril-barracuda-wosa-production",
+    "title": "Barracuda becomes first WOSA-compliant weapon in large-scale production",
+    "date": "2026-09-23",
+    "collected_at": "2026-10-06",
+    "url": "https://www.anduril.com/news/barracuda-becomes-first-wosa-compliant-weapon-in-large-scale-production",
+    "source": "Anduril",
+    "source_type": "company",
+    "countries": ["US"],
+    "domains": ["airpower"],
+    "organizations": ["Anduril Industries", "Department of War"],
+    "companies": ["Anduril"],
+    "programs": ["Barracuda-500"],
+    "aircraft": ["Barracuda-500"],
+    "models": [],
+    "simulators": [],
+    "topics": ["UAV", "mission-autonomy", "production"],
+    "status": "production",
+    "summary_ja": "AndurilはBarracuda-500がWOSA準拠の兵器として量産段階に入ったと公表した。",
+    "confidence": "primary",
+    "citation_scan_status": "unavailable",
+    "citations": []
+  },
+  {
+    "id": "2026-09-23-anduril-taiwan-altius-milestones",
+    "title": "Strengthens Security Partnership with Taiwan through Altius milestones",
+    "date": "2026-09-23",
+    "collected_at": "2026-10-06",
+    "url": "https://www.anduril.com/news/strengthens-security-partnership-with-taiwan-through-altius-milestones",
+    "source": "Anduril",
+    "source_type": "company",
+    "countries": ["US", "TW"],
+    "domains": ["airpower"],
+    "organizations": ["Anduril Industries", "Taiwan"],
+    "companies": ["Anduril"],
+    "programs": ["Altius"],
+    "aircraft": ["Altius"],
+    "models": [],
+    "simulators": [],
+    "topics": ["UAV", "partnership", "updated"],
+    "status": "updated",
+    "summary_ja": "Andurilは台湾向けAltius関連の進捗と現地投資拡大を公表し、無人機協力の継続を示した。",
+    "confidence": "primary",
+    "citation_scan_status": "unavailable",
+    "citations": []
+  },
+  {
+    "id": "2026-10-02-atla-sbir-open-call",
+    "title": "防衛省版SBIR : 公募",
+    "date": "2026-10-02",
+    "collected_at": "2026-10-06",
+    "url": "https://www.mod.go.jp/atla/sbir/open-call.html",
+    "source": "防衛装備庁",
+    "source_type": "government",
+    "countries": ["JP"],
+    "domains": ["airpower"],
+    "organizations": ["防衛装備庁"],
+    "companies": [],
+    "programs": ["防衛省版SBIR"],
+    "aircraft": [],
+    "models": [],
+    "simulators": [],
+    "topics": ["UAV", "mission-autonomy", "solicitation"],
+    "status": "solicitation",
+    "summary_ja": "防衛装備庁は防衛省版SBIRの公募を開始し、小型UAV、迎撃用UAV、海上警戒監視AIなど7テーマを示した。",
+    "confidence": "primary",
+    "citation_scan_status": "scanned",
+    "citations": [
+      {
+        "url": "https://www.mod.go.jp/atla/sbir/open-call.html",
+        "title": "防衛省版SBIR : 公募",
+        "type": "source"
+      },
+      {
+        "url": "https://www.mod.go.jp/atla/sbir/koubo/r08/r8_sbir_koubo_youkou_2610.pdf",
+        "title": "令和8年度防衛省版SBIR公募要領",
+        "type": "self"
+      },
+      {
+        "url": "https://www.mod.go.jp/atla/sbir/koubo/r08/r8_sbir_koubo_topic01_2610.pdf",
+        "title": "トピック1　国内製造の部品・構成品を活用した対処用小型UAVシステム",
+        "type": "self"
+      },
+      {
+        "url": "https://www.mod.go.jp/atla/sbir/koubo/r08/r8_sbir_koubo_topic02_2610.pdf",
+        "title": "トピック2　対処用小型UAVを用いた迎撃用UAVシステム",
+        "type": "self"
+      },
+      {
+        "url": "https://www.mod.go.jp/atla/sbir/koubo/r08/r8_sbir_koubo_topic03_2610.pdf",
+        "title": "トピック3　小型UAVを用いた極小型情報収集システム",
+        "type": "self"
+      },
+      {
+        "url": "https://www.mod.go.jp/atla/sbir/koubo/r08/r8_sbir_koubo_topic04_2610.pdf",
+        "title": "トピック4　海上の対処に用いる小型UAVシステム",
+        "type": "self"
+      },
+      {
+        "url": "https://www.mod.go.jp/atla/sbir/koubo/r08/r8_sbir_koubo_topic05_2610.pdf",
+        "title": "トピック5　AIを用いた海上の監視・警戒手法の構築に関するシステム",
+        "type": "self"
+      },
+      {
+        "url": "https://www.mod.go.jp/atla/sbir/koubo/r08/r8_sbir_koubo_topic06_2610.pdf",
+        "title": "トピック6　補給倉庫におけるハード・ソフトウェアの最適化に係る研究",
+        "type": "self"
+      },
+      {
+        "url": "https://www.mod.go.jp/atla/sbir/koubo/r08/r8_sbir_koubo_topic07_2610.pdf",
+        "title": "トピック7　航空機用消音装置の開発に関する研究",
+        "type": "self"
+      }
+    ]
+  },
+  {
+    "id": "2026-09-16-nvidia-ai-agents-3d-scenes-simulation",
+    "title": "How to Use AI Agents to Prepare 3D Scenes for Simulation",
+    "date": "2026-09-16",
+    "collected_at": "2026-10-06",
+    "url": "https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/",
+    "source": "NVIDIA",
+    "source_type": "company",
+    "countries": ["US"],
+    "domains": ["autonomous-driving", "mobile-robotics", "robotics"],
+    "organizations": ["NVIDIA"],
+    "companies": ["NVIDIA"],
+    "programs": ["NVIDIA Omniverse", "NVIDIA Omniverse Libraries"],
+    "aircraft": [],
+    "models": [],
+    "simulators": ["NVIDIA Omniverse", "Isaac Sim", "Isaac Lab"],
+    "topics": ["simulation", "world-model", "synthetic-data", "robotics"],
+    "status": "updated",
+    "summary_ja": "NVIDIAは、AIエージェントで3Dシーンを整え、OmniverseやIsaac Sim向けにシミュレーション対応させる手順を公開した。",
+    "confidence": "primary",
+    "citation_scan_status": "scanned",
+    "citations": [
+      {
+        "url": "https://developer.nvidia.com/omniverse",
+        "title": "Omniverse Libraries | NVIDIA Developer",
+        "type": "self"
+      },
+      {
+        "url": "https://docs.nvidia.com/nemoclaw/user-guide/openclaw/home///",
+        "title": "NVIDIA NemoClaw",
+        "type": "reference"
+      },
+      {
+        "url": "https://docs.omniverse.nvidia.com/simready/latest/overview/simready-spec.html",
+        "title": "The SimReady Specification — Omniverse SimReady",
+        "type": "reference"
+      },
+      {
+        "url": "https://developer.nvidia.com/openusd",
+        "title": "OpenUSD (Universal Scene Description) for Developers | NVIDIA Developer",
+        "type": "reference"
+      },
+      {
+        "url": "https://www.nvidia.com/en-eu/glossary/simready/",
+        "title": "What Is SimReady? | NVIDIA Glossary",
+        "type": "reference"
+      }
+    ]
+  },
+  {
     "id": "2026-08-13-cca-c2e-prototype-evaluations",
     "title": "DAF completes key prototype evaluations for Collaborative Combat Aircraft C2E",
     "date": "2026-08-13",

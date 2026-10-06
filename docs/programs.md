@@ -2,6 +2,14 @@
 
 各国の開発・調達プログラム別の時系列です。
 
+## A-GRA
+
+- **2026-10-05** [GA-ASI Teams With U.S. Navy To Demonstrate Collaborative Autonomous Mission Planning for Simulated Battle](https://www.ga-asi.com/ga-asi-teams-with-us-navy-to-demonstrate-collaborative-autonomous-mission-planning-for-simulated-battle)
+
+  GA-ASIと米海軍はMQ-20 Avengerを使った協調自律ミッション計画のデモを示し、LVC環境と機上ソフトを接続する運用実証を進めた。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / mission-autonomy / simulation
+
 ## Air Combat Evolution
 
 - **2026-07-16** [DARPA and U.S. Air Force fly AI-controlled F-16, paving the way for autonomous air combat](https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16)
@@ -14,6 +22,14 @@
   DARPAは、AIアルゴリズムがX-62A VISTAを操縦し、有人F-16と空中戦試験を行ったACEプログラムの成果を公表した。
 
   出典: DARPA / 状態: `flight-test` / air-combat-ai / human-machine-teaming / flight-test
+
+## Altius
+
+- **2026-09-23** [Strengthens Security Partnership with Taiwan through Altius milestones](https://www.anduril.com/news/strengthens-security-partnership-with-taiwan-through-altius-milestones)
+
+  Andurilは台湾向けAltius関連の進捗と現地投資拡大を公表し、無人機協力の継続を示した。
+
+  出典: Anduril / 状態: `updated` / UAV / partnership / updated
 
 ## Artificial Intelligence Reinforcements
 
@@ -33,6 +49,11 @@
 
 ## Barracuda-500
 
+- **2026-09-23** [Barracuda becomes first WOSA-compliant weapon in large-scale production](https://www.anduril.com/news/barracuda-becomes-first-wosa-compliant-weapon-in-large-scale-production)
+
+  AndurilはBarracuda-500がWOSA準拠の兵器として量産段階に入ったと公表した。
+
+  出典: Anduril / 状態: `production` / UAV / mission-autonomy / production
 - **2026-07-15** [Anduril, Department of War Sign Framework Agreement for Air-Launched Barracuda-500](https://www.anduril.com/news/anduril-department-of-war-sign-framework-agreement-for-air-launched-barracuda-500)
 
   Andurilは、空中発射型Barracuda-500に関する枠組み合意を米国防当局と結んだと発表した。記事は量産拡大の枠組みを示すもので、機体の新規性能を追加で推定するものではない。
@@ -99,6 +120,46 @@
 
   出典: U.S. Air Force / 状態: `updated` / CCA / mission-autonomy / program-milestone
 
+## Gray Flag 2026
+
+- **2026-10-05** [GA-ASI Teams With U.S. Navy To Demonstrate Collaborative Autonomous Mission Planning for Simulated Battle](https://www.ga-asi.com/ga-asi-teams-with-us-navy-to-demonstrate-collaborative-autonomous-mission-planning-for-simulated-battle)
+
+  GA-ASIと米海軍はMQ-20 Avengerを使った協調自律ミッション計画のデモを示し、LVC環境と機上ソフトを接続する運用実証を進めた。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / mission-autonomy / simulation
+
+## Integrated Battle Problem
+
+- **2026-09-30** [U.S. Navy Evaluates SeaGuardian UAS at Whidbey Island](https://www.ga-asi.com/us-navy-evaluates-seaguardian-uas-at-whidbey-island)
+
+  GA-ASIはSeaGuardianをワシントン州ホイッドビー島で海軍の評価に投入し、Northern EdgeやIntegrated Battle Problemでの実績を踏まえた運用評価を示した。
+
+  出典: General Atomics Aeronautical Systems / 状態: `updated` / UAV / mission-autonomy / exercise
+
+## MQ-20 Avenger
+
+- **2026-10-05** [GA-ASI Teams With U.S. Navy To Demonstrate Collaborative Autonomous Mission Planning for Simulated Battle](https://www.ga-asi.com/ga-asi-teams-with-us-navy-to-demonstrate-collaborative-autonomous-mission-planning-for-simulated-battle)
+
+  GA-ASIと米海軍はMQ-20 Avengerを使った協調自律ミッション計画のデモを示し、LVC環境と機上ソフトを接続する運用実証を進めた。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / mission-autonomy / simulation
+
+## MQ-9B
+
+- **2026-10-01** [GA-ASI Demonstrates Disaster Relief Comms System With SoftBank Corp.](https://www.ga-asi.com/ga-asi-demonstrates-disaster-relief-comms-system-with-softbank-corp)
+
+  GA-ASIはSoftBank Corp.の災害復旧向け通信ペイロードをMQ-9Bで実演し、機上中継局としての利用可能性を示した。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / communications / flight-test
+
+## Northern Edge
+
+- **2026-09-30** [U.S. Navy Evaluates SeaGuardian UAS at Whidbey Island](https://www.ga-asi.com/us-navy-evaluates-seaguardian-uas-at-whidbey-island)
+
+  GA-ASIはSeaGuardianをワシントン州ホイッドビー島で海軍の評価に投入し、Northern EdgeやIntegrated Battle Problemでの実績を踏まえた運用評価を示した。
+
+  出典: General Atomics Aeronautical Systems / 状態: `updated` / UAV / mission-autonomy / exercise
+
 ## NVIDIA Agent Toolkit
 
 - **2026-07-20** [NVIDIA Agent Toolkit Expands With New Omniverse Libraries, Putting AI Agents to Work Building Simulation-Ready Worlds](https://nvidianews.nvidia.com/news/nvidia-agent-toolkit-expands-with-new-omniverse-libraries-putting-ai-agents-to-work-building-simulation-ready-worlds)
@@ -132,11 +193,40 @@
 
 ## NVIDIA Omniverse
 
+- **2026-09-16** [How to Use AI Agents to Prepare 3D Scenes for Simulation](https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/)
+
+  NVIDIAは、AIエージェントで3Dシーンを整え、OmniverseやIsaac Sim向けにシミュレーション対応させる手順を公開した。
+
+  出典: NVIDIA / 状態: `updated` / simulation / world-model / synthetic-data / robotics
 - **2026-07-20** [NVIDIA Agent Toolkit Expands With New Omniverse Libraries, Putting AI Agents to Work Building Simulation-Ready Worlds](https://nvidianews.nvidia.com/news/nvidia-agent-toolkit-expands-with-new-omniverse-libraries-putting-ai-agents-to-work-building-simulation-ready-worlds)
 
   NVIDIAはAgent ToolkitにOmniverseライブラリを追加し、AIエージェントがセンサーシミュレーション、GPU物理、SimReady資産検証を扱えるようにした。Blender向けblueprintやOpenUSD、SimReady関連の公開導線も含み、シミュレーション準備の作業を前進させる内容だった。
 
   出典: NVIDIA / 状態: `updated` / world-model / simulation / physical-ai / synthetic-data
+
+## NVIDIA Omniverse Libraries
+
+- **2026-09-16** [How to Use AI Agents to Prepare 3D Scenes for Simulation](https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/)
+
+  NVIDIAは、AIエージェントで3Dシーンを整え、OmniverseやIsaac Sim向けにシミュレーション対応させる手順を公開した。
+
+  出典: NVIDIA / 状態: `updated` / simulation / world-model / synthetic-data / robotics
+
+## SeaGuardian
+
+- **2026-09-30** [U.S. Navy Evaluates SeaGuardian UAS at Whidbey Island](https://www.ga-asi.com/us-navy-evaluates-seaguardian-uas-at-whidbey-island)
+
+  GA-ASIはSeaGuardianをワシントン州ホイッドビー島で海軍の評価に投入し、Northern EdgeやIntegrated Battle Problemでの実績を踏まえた運用評価を示した。
+
+  出典: General Atomics Aeronautical Systems / 状態: `updated` / UAV / mission-autonomy / exercise
+
+## TacACE
+
+- **2026-10-05** [GA-ASI Teams With U.S. Navy To Demonstrate Collaborative Autonomous Mission Planning for Simulated Battle](https://www.ga-asi.com/ga-asi-teams-with-us-navy-to-demonstrate-collaborative-autonomous-mission-planning-for-simulated-battle)
+
+  GA-ASIと米海軍はMQ-20 Avengerを使った協調自律ミッション計画のデモを示し、LVC環境と機上ソフトを接続する運用実証を進めた。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / mission-autonomy / simulation
 
 ## Thunder
 
@@ -153,3 +243,11 @@
   DARPAと米空軍は、VENOM改修F-16による空中試験でAIが飛行を自律制御したと発表した。AIRプログラムでは、この試験機群を使って有人機と無人機の協同や将来のCCAに向けた戦術自律を実飛行で検証する。
 
   出典: DARPA / 状態: `flight-test` / air-combat-ai / human-machine-teaming / flight-test
+
+## 防衛省版SBIR
+
+- **2026-10-02** [防衛省版SBIR : 公募](https://www.mod.go.jp/atla/sbir/open-call.html)
+
+  防衛装備庁は防衛省版SBIRの公募を開始し、小型UAV、迎撃用UAV、海上警戒監視AIなど7テーマを示した。
+
+  出典: 防衛装備庁 / 状態: `solicitation` / UAV / mission-autonomy / solicitation

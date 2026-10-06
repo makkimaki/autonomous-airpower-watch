@@ -61,6 +61,14 @@
 
   出典: U.S. Air Force / 状態: `prototype` / CCA / program-milestone
 
+## communications
+
+- **2026-10-01** [GA-ASI Demonstrates Disaster Relief Comms System With SoftBank Corp.](https://www.ga-asi.com/ga-asi-demonstrates-disaster-relief-comms-system-with-softbank-corp)
+
+  GA-ASIはSoftBank Corp.の災害復旧向け通信ペイロードをMQ-9Bで実演し、機上中継局としての利用可能性を示した。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / communications / flight-test
+
 ## contract
 
 - **2026-08-10** [無人機システム自律同時制御機能の設計・検証の企画競争募集要領](https://www.mod.go.jp/atla/data/info/ny_kenkyu_shinsedai/ippan.html)
@@ -97,8 +105,21 @@
 
   出典: CARLA Simulator / 状態: `updated` / simulation / world-model / digital-twin / ROS2 / synthetic-data
 
+## exercise
+
+- **2026-09-30** [U.S. Navy Evaluates SeaGuardian UAS at Whidbey Island](https://www.ga-asi.com/us-navy-evaluates-seaguardian-uas-at-whidbey-island)
+
+  GA-ASIはSeaGuardianをワシントン州ホイッドビー島で海軍の評価に投入し、Northern EdgeやIntegrated Battle Problemでの実績を踏まえた運用評価を示した。
+
+  出典: General Atomics Aeronautical Systems / 状態: `updated` / UAV / mission-autonomy / exercise
+
 ## flight-test
 
+- **2026-10-01** [GA-ASI Demonstrates Disaster Relief Comms System With SoftBank Corp.](https://www.ga-asi.com/ga-asi-demonstrates-disaster-relief-comms-system-with-softbank-corp)
+
+  GA-ASIはSoftBank Corp.の災害復旧向け通信ペイロードをMQ-9Bで実演し、機上中継局としての利用可能性を示した。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / communications / flight-test
 - **2026-08-04** [X-62 VISTA sets precedents with mission systems upgrades, aligns human research with AI development](https://www.wpafb.af.mil/News/Article-Display/Article/4565350/x-62-vista-sets-precedents-with-mission-systems-upgrades-aligns-human-researche/)
 
   X-62 VISTAのミッションシステム改修で、AI開発と有人研究の接続を進める試験結果が示された。
@@ -148,6 +169,26 @@
 
 ## mission-autonomy
 
+- **2026-10-05** [GA-ASI Teams With U.S. Navy To Demonstrate Collaborative Autonomous Mission Planning for Simulated Battle](https://www.ga-asi.com/ga-asi-teams-with-us-navy-to-demonstrate-collaborative-autonomous-mission-planning-for-simulated-battle)
+
+  GA-ASIと米海軍はMQ-20 Avengerを使った協調自律ミッション計画のデモを示し、LVC環境と機上ソフトを接続する運用実証を進めた。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / mission-autonomy / simulation
+- **2026-10-02** [防衛省版SBIR : 公募](https://www.mod.go.jp/atla/sbir/open-call.html)
+
+  防衛装備庁は防衛省版SBIRの公募を開始し、小型UAV、迎撃用UAV、海上警戒監視AIなど7テーマを示した。
+
+  出典: 防衛装備庁 / 状態: `solicitation` / UAV / mission-autonomy / solicitation
+- **2026-09-30** [U.S. Navy Evaluates SeaGuardian UAS at Whidbey Island](https://www.ga-asi.com/us-navy-evaluates-seaguardian-uas-at-whidbey-island)
+
+  GA-ASIはSeaGuardianをワシントン州ホイッドビー島で海軍の評価に投入し、Northern EdgeやIntegrated Battle Problemでの実績を踏まえた運用評価を示した。
+
+  出典: General Atomics Aeronautical Systems / 状態: `updated` / UAV / mission-autonomy / exercise
+- **2026-09-23** [Barracuda becomes first WOSA-compliant weapon in large-scale production](https://www.anduril.com/news/barracuda-becomes-first-wosa-compliant-weapon-in-large-scale-production)
+
+  AndurilはBarracuda-500がWOSA準拠の兵器として量産段階に入ったと公表した。
+
+  出典: Anduril / 状態: `production` / UAV / mission-autonomy / production
 - **2026-08-13** [DAF completes key prototype evaluations for Collaborative Combat Aircraft C2E](https://www.aflcmc.af.mil/NEWS/Article/4573342/daf-completes-key-prototype-evaluations-for-collaborative-combat-aircraft-comma/)
 
   DAFはCollaborative Combat AircraftのC2Eに向けた試作機評価を完了し、開発の次段階へ進める材料を整えた。
@@ -197,6 +238,14 @@
 
   出典: U.S. Air Force / 状態: `flight-test` / CCA / flight-test / operational-readiness
 
+## partnership
+
+- **2026-09-23** [Strengthens Security Partnership with Taiwan through Altius milestones](https://www.anduril.com/news/strengthens-security-partnership-with-taiwan-through-altius-milestones)
+
+  Andurilは台湾向けAltius関連の進捗と現地投資拡大を公表し、無人機協力の継続を示した。
+
+  出典: Anduril / 状態: `updated` / UAV / partnership / updated
+
 ## physical-ai
 
 - **2026-08-06** [Into the Omniverse: How Open World Models Push the Frontier of Physical AI](https://blogs.nvidia.com/blog/open-world-models-physical-ai/)
@@ -222,6 +271,11 @@
 
 ## production
 
+- **2026-09-23** [Barracuda becomes first WOSA-compliant weapon in large-scale production](https://www.anduril.com/news/barracuda-becomes-first-wosa-compliant-weapon-in-large-scale-production)
+
+  AndurilはBarracuda-500がWOSA準拠の兵器として量産段階に入ったと公表した。
+
+  出典: Anduril / 状態: `production` / UAV / mission-autonomy / production
 - **2026-06-17** [Air Force advances future of air superiority with CCA contracts](https://www.af.mil/News/Article-Display/Article/4520575/air-force-advances-future-of-air-superiority-with-cca-contracts/)
 
   米空軍はCCA Increment 1の機体とミッション自律ソフトウェアに関する複数契約を発表し、ハードウェアと自律ソフトウェアを分離して競争させる方針を示した。
@@ -253,6 +307,11 @@
 
 ## robotics
 
+- **2026-09-16** [How to Use AI Agents to Prepare 3D Scenes for Simulation](https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/)
+
+  NVIDIAは、AIエージェントで3Dシーンを整え、OmniverseやIsaac Sim向けにシミュレーション対応させる手順を公開した。
+
+  出典: NVIDIA / 状態: `updated` / simulation / world-model / synthetic-data / robotics
 - **2026-07-15** [Japan’s Robotics and Manufacturing Leaders Build on NVIDIA Cosmos to Advance Physical AI Frontier](https://nvidianews.nvidia.com/news/japans-robotics-and-manufacturing-leaders-build-on-nvidia-cosmos-to-advance-physical-ai-frontier)
 
   NVIDIAは、日本の物理AI関係者がCosmos、Isaac、Metropolis、Jetsonを基盤に世界モデルとロボット開発を進めていると発表した。Fujitsuの協調制御基盤構想や、Cosmos 3 Edge、Omniverse NuRec、Newton、Isaac Simを使うシミュレーションと実機移行の取り組みが含まれる。
@@ -277,6 +336,16 @@
 
 ## simulation
 
+- **2026-10-05** [GA-ASI Teams With U.S. Navy To Demonstrate Collaborative Autonomous Mission Planning for Simulated Battle](https://www.ga-asi.com/ga-asi-teams-with-us-navy-to-demonstrate-collaborative-autonomous-mission-planning-for-simulated-battle)
+
+  GA-ASIと米海軍はMQ-20 Avengerを使った協調自律ミッション計画のデモを示し、LVC環境と機上ソフトを接続する運用実証を進めた。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / mission-autonomy / simulation
+- **2026-09-16** [How to Use AI Agents to Prepare 3D Scenes for Simulation](https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/)
+
+  NVIDIAは、AIエージェントで3Dシーンを整え、OmniverseやIsaac Sim向けにシミュレーション対応させる手順を公開した。
+
+  出典: NVIDIA / 状態: `updated` / simulation / world-model / synthetic-data / robotics
 - **2026-08-06** [Into the Omniverse: How Open World Models Push the Frontier of Physical AI](https://blogs.nvidia.com/blog/open-world-models-physical-ai/)
 
   NVIDIAは、Cosmos 3を軸に世界モデル、Omniverseベースのシミュレーション、合成データ生成を組み合わせ、ロボット、自動運転、映像AI向けの物理AI開発を整理した。
@@ -313,8 +382,21 @@
 
   出典: NVIDIA / 状態: `updated` / world-model / synthetic-data / simulation / physical-ai
 
+## solicitation
+
+- **2026-10-02** [防衛省版SBIR : 公募](https://www.mod.go.jp/atla/sbir/open-call.html)
+
+  防衛装備庁は防衛省版SBIRの公募を開始し、小型UAV、迎撃用UAV、海上警戒監視AIなど7テーマを示した。
+
+  出典: 防衛装備庁 / 状態: `solicitation` / UAV / mission-autonomy / solicitation
+
 ## synthetic-data
 
+- **2026-09-16** [How to Use AI Agents to Prepare 3D Scenes for Simulation](https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/)
+
+  NVIDIAは、AIエージェントで3Dシーンを整え、OmniverseやIsaac Sim向けにシミュレーション対応させる手順を公開した。
+
+  出典: NVIDIA / 状態: `updated` / simulation / world-model / synthetic-data / robotics
 - **2026-08-06** [Into the Omniverse: How Open World Models Push the Frontier of Physical AI](https://blogs.nvidia.com/blog/open-world-models-physical-ai/)
 
   NVIDIAは、Cosmos 3を軸に世界モデル、Omniverseベースのシミュレーション、合成データ生成を組み合わせ、ロボット、自動運転、映像AI向けの物理AI開発を整理した。
@@ -348,6 +430,36 @@
 
 ## UAV
 
+- **2026-10-05** [GA-ASI Teams With U.S. Navy To Demonstrate Collaborative Autonomous Mission Planning for Simulated Battle](https://www.ga-asi.com/ga-asi-teams-with-us-navy-to-demonstrate-collaborative-autonomous-mission-planning-for-simulated-battle)
+
+  GA-ASIと米海軍はMQ-20 Avengerを使った協調自律ミッション計画のデモを示し、LVC環境と機上ソフトを接続する運用実証を進めた。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / mission-autonomy / simulation
+- **2026-10-02** [防衛省版SBIR : 公募](https://www.mod.go.jp/atla/sbir/open-call.html)
+
+  防衛装備庁は防衛省版SBIRの公募を開始し、小型UAV、迎撃用UAV、海上警戒監視AIなど7テーマを示した。
+
+  出典: 防衛装備庁 / 状態: `solicitation` / UAV / mission-autonomy / solicitation
+- **2026-10-01** [GA-ASI Demonstrates Disaster Relief Comms System With SoftBank Corp.](https://www.ga-asi.com/ga-asi-demonstrates-disaster-relief-comms-system-with-softbank-corp)
+
+  GA-ASIはSoftBank Corp.の災害復旧向け通信ペイロードをMQ-9Bで実演し、機上中継局としての利用可能性を示した。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / communications / flight-test
+- **2026-09-30** [U.S. Navy Evaluates SeaGuardian UAS at Whidbey Island](https://www.ga-asi.com/us-navy-evaluates-seaguardian-uas-at-whidbey-island)
+
+  GA-ASIはSeaGuardianをワシントン州ホイッドビー島で海軍の評価に投入し、Northern EdgeやIntegrated Battle Problemでの実績を踏まえた運用評価を示した。
+
+  出典: General Atomics Aeronautical Systems / 状態: `updated` / UAV / mission-autonomy / exercise
+- **2026-09-23** [Strengthens Security Partnership with Taiwan through Altius milestones](https://www.anduril.com/news/strengthens-security-partnership-with-taiwan-through-altius-milestones)
+
+  Andurilは台湾向けAltius関連の進捗と現地投資拡大を公表し、無人機協力の継続を示した。
+
+  出典: Anduril / 状態: `updated` / UAV / partnership / updated
+- **2026-09-23** [Barracuda becomes first WOSA-compliant weapon in large-scale production](https://www.anduril.com/news/barracuda-becomes-first-wosa-compliant-weapon-in-large-scale-production)
+
+  AndurilはBarracuda-500がWOSA準拠の兵器として量産段階に入ったと公表した。
+
+  出典: Anduril / 状態: `production` / UAV / mission-autonomy / production
 - **2026-08-11** [Lift Challenge results](https://www.darpa.mil/news/2026/lift-challenge-awards)
 
   DARPAはLift Challengeの結果を公表し、参加チームの評価と賞の配分を示した。
@@ -374,8 +486,21 @@
 
   出典: Anduril / 状態: `contracted` / UAV / mission-autonomy / contract
 
+## updated
+
+- **2026-09-23** [Strengthens Security Partnership with Taiwan through Altius milestones](https://www.anduril.com/news/strengthens-security-partnership-with-taiwan-through-altius-milestones)
+
+  Andurilは台湾向けAltius関連の進捗と現地投資拡大を公表し、無人機協力の継続を示した。
+
+  出典: Anduril / 状態: `updated` / UAV / partnership / updated
+
 ## world-model
 
+- **2026-09-16** [How to Use AI Agents to Prepare 3D Scenes for Simulation](https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/)
+
+  NVIDIAは、AIエージェントで3Dシーンを整え、OmniverseやIsaac Sim向けにシミュレーション対応させる手順を公開した。
+
+  出典: NVIDIA / 状態: `updated` / simulation / world-model / synthetic-data / robotics
 - **2026-08-06** [Into the Omniverse: How Open World Models Push the Frontier of Physical AI](https://blogs.nvidia.com/blog/open-world-models-physical-ai/)
 
   NVIDIAは、Cosmos 3を軸に世界モデル、Omniverseベースのシミュレーション、合成データ生成を組み合わせ、ロボット、自動運転、映像AI向けの物理AI開発を整理した。

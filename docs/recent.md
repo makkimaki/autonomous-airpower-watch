@@ -2,6 +2,41 @@
 
 公開一次情報を中心に、CCA、UAV、航空戦闘AI、自律システム向け世界モデルとシミュレータの動きを新しい順に掲載します。
 
+- **2026-10-05** [GA-ASI Teams With U.S. Navy To Demonstrate Collaborative Autonomous Mission Planning for Simulated Battle](https://www.ga-asi.com/ga-asi-teams-with-us-navy-to-demonstrate-collaborative-autonomous-mission-planning-for-simulated-battle)
+
+  GA-ASIと米海軍はMQ-20 Avengerを使った協調自律ミッション計画のデモを示し、LVC環境と機上ソフトを接続する運用実証を進めた。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / mission-autonomy / simulation
+- **2026-10-02** [防衛省版SBIR : 公募](https://www.mod.go.jp/atla/sbir/open-call.html)
+
+  防衛装備庁は防衛省版SBIRの公募を開始し、小型UAV、迎撃用UAV、海上警戒監視AIなど7テーマを示した。
+
+  出典: 防衛装備庁 / 状態: `solicitation` / UAV / mission-autonomy / solicitation
+- **2026-10-01** [GA-ASI Demonstrates Disaster Relief Comms System With SoftBank Corp.](https://www.ga-asi.com/ga-asi-demonstrates-disaster-relief-comms-system-with-softbank-corp)
+
+  GA-ASIはSoftBank Corp.の災害復旧向け通信ペイロードをMQ-9Bで実演し、機上中継局としての利用可能性を示した。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / communications / flight-test
+- **2026-09-30** [U.S. Navy Evaluates SeaGuardian UAS at Whidbey Island](https://www.ga-asi.com/us-navy-evaluates-seaguardian-uas-at-whidbey-island)
+
+  GA-ASIはSeaGuardianをワシントン州ホイッドビー島で海軍の評価に投入し、Northern EdgeやIntegrated Battle Problemでの実績を踏まえた運用評価を示した。
+
+  出典: General Atomics Aeronautical Systems / 状態: `updated` / UAV / mission-autonomy / exercise
+- **2026-09-23** [Strengthens Security Partnership with Taiwan through Altius milestones](https://www.anduril.com/news/strengthens-security-partnership-with-taiwan-through-altius-milestones)
+
+  Andurilは台湾向けAltius関連の進捗と現地投資拡大を公表し、無人機協力の継続を示した。
+
+  出典: Anduril / 状態: `updated` / UAV / partnership / updated
+- **2026-09-23** [Barracuda becomes first WOSA-compliant weapon in large-scale production](https://www.anduril.com/news/barracuda-becomes-first-wosa-compliant-weapon-in-large-scale-production)
+
+  AndurilはBarracuda-500がWOSA準拠の兵器として量産段階に入ったと公表した。
+
+  出典: Anduril / 状態: `production` / UAV / mission-autonomy / production
+- **2026-09-16** [How to Use AI Agents to Prepare 3D Scenes for Simulation](https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/)
+
+  NVIDIAは、AIエージェントで3Dシーンを整え、OmniverseやIsaac Sim向けにシミュレーション対応させる手順を公開した。
+
+  出典: NVIDIA / 状態: `updated` / simulation / world-model / synthetic-data / robotics
 - **2026-08-13** [DAF completes key prototype evaluations for Collaborative Combat Aircraft C2E](https://www.aflcmc.af.mil/NEWS/Article/4573342/daf-completes-key-prototype-evaluations-for-collaborative-combat-aircraft-comma/)
 
   DAFはCollaborative Combat AircraftのC2Eに向けた試作機評価を完了し、開発の次段階へ進める材料を整えた。

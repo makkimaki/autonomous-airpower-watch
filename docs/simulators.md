@@ -10,8 +10,21 @@
 
   出典: CARLA Simulator / 状態: `updated` / simulation / world-model / digital-twin / ROS2 / synthetic-data
 
+## Isaac Lab
+
+- **2026-09-16** [How to Use AI Agents to Prepare 3D Scenes for Simulation](https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/)
+
+  NVIDIAは、AIエージェントで3Dシーンを整え、OmniverseやIsaac Sim向けにシミュレーション対応させる手順を公開した。
+
+  出典: NVIDIA / 状態: `updated` / simulation / world-model / synthetic-data / robotics
+
 ## Isaac Sim
 
+- **2026-09-16** [How to Use AI Agents to Prepare 3D Scenes for Simulation](https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/)
+
+  NVIDIAは、AIエージェントで3Dシーンを整え、OmniverseやIsaac Sim向けにシミュレーション対応させる手順を公開した。
+
+  出典: NVIDIA / 状態: `updated` / simulation / world-model / synthetic-data / robotics
 - **2026-07-15** [Japan’s Robotics and Manufacturing Leaders Build on NVIDIA Cosmos to Advance Physical AI Frontier](https://nvidianews.nvidia.com/news/japans-robotics-and-manufacturing-leaders-build-on-nvidia-cosmos-to-advance-physical-ai-frontier)
 
   NVIDIAは、日本の物理AI関係者がCosmos、Isaac、Metropolis、Jetsonを基盤に世界モデルとロボット開発を進めていると発表した。Fujitsuの協調制御基盤構想や、Cosmos 3 Edge、Omniverse NuRec、Newton、Isaac Simを使うシミュレーションと実機移行の取り組みが含まれる。
@@ -28,6 +41,11 @@
 
 ## NVIDIA Omniverse
 
+- **2026-09-16** [How to Use AI Agents to Prepare 3D Scenes for Simulation](https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/)
+
+  NVIDIAは、AIエージェントで3Dシーンを整え、OmniverseやIsaac Sim向けにシミュレーション対応させる手順を公開した。
+
+  出典: NVIDIA / 状態: `updated` / simulation / world-model / synthetic-data / robotics
 - **2026-08-06** [Into the Omniverse: How Open World Models Push the Frontier of Physical AI](https://blogs.nvidia.com/blog/open-world-models-physical-ai/)
 
   NVIDIAは、Cosmos 3を軸に世界モデル、Omniverseベースのシミュレーション、合成データ生成を組み合わせ、ロボット、自動運転、映像AI向けの物理AI開発を整理した。
