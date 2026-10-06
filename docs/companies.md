@@ -4,6 +4,16 @@
 
 ## Anduril
 
+- **2026-09-23** [Strengthens Security Partnership with Taiwan through Altius milestones](https://www.anduril.com/news/strengthens-security-partnership-with-taiwan-through-altius-milestones)
+
+  Andurilは台湾向けAltius関連の進捗と現地投資拡大を公表し、無人機協力の継続を示した。
+
+  出典: Anduril / 状態: `updated` / UAV / partnership / updated
+- **2026-09-23** [Barracuda becomes first WOSA-compliant weapon in large-scale production](https://www.anduril.com/news/barracuda-becomes-first-wosa-compliant-weapon-in-large-scale-production)
+
+  AndurilはBarracuda-500がWOSA準拠の兵器として量産段階に入ったと公表した。
+
+  出典: Anduril / 状態: `production` / UAV / mission-autonomy / production
 - **2026-07-20** [Introducing Thunder: Autonomous Attack Rotorcraft for the Near-Surface Fight](https://www.anduril.com/news/thunder)
 
   Andurilは、近接域戦闘向けの自律攻撃ロータークラフトThunderを紹介した。公開本文では機体の位置づけと設計思想が示されるが、未公表の運用能力は追加していない。
@@ -62,6 +72,24 @@
 
   出典: U.S. Air Force / 状態: `prototype` / CCA / program-milestone
 
+## General Atomics Aeronautical Systems
+
+- **2026-10-05** [GA-ASI Teams With U.S. Navy To Demonstrate Collaborative Autonomous Mission Planning for Simulated Battle](https://www.ga-asi.com/ga-asi-teams-with-us-navy-to-demonstrate-collaborative-autonomous-mission-planning-for-simulated-battle)
+
+  GA-ASIと米海軍はMQ-20 Avengerを使った協調自律ミッション計画のデモを示し、LVC環境と機上ソフトを接続する運用実証を進めた。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / mission-autonomy / simulation
+- **2026-10-01** [GA-ASI Demonstrates Disaster Relief Comms System With SoftBank Corp.](https://www.ga-asi.com/ga-asi-demonstrates-disaster-relief-comms-system-with-softbank-corp)
+
+  GA-ASIはSoftBank Corp.の災害復旧向け通信ペイロードをMQ-9Bで実演し、機上中継局としての利用可能性を示した。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / communications / flight-test
+- **2026-09-30** [U.S. Navy Evaluates SeaGuardian UAS at Whidbey Island](https://www.ga-asi.com/us-navy-evaluates-seaguardian-uas-at-whidbey-island)
+
+  GA-ASIはSeaGuardianをワシントン州ホイッドビー島で海軍の評価に投入し、Northern EdgeやIntegrated Battle Problemでの実績を踏まえた運用評価を示した。
+
+  出典: General Atomics Aeronautical Systems / 状態: `updated` / UAV / mission-autonomy / exercise
+
 ## Lockheed Martin
 
 - **2026-08-04** [X-62 VISTA sets precedents with mission systems upgrades, aligns human research with AI development](https://www.wpafb.af.mil/News/Article-Display/Article/4565350/x-62-vista-sets-precedents-with-mission-systems-upgrades-aligns-human-researche/)
@@ -80,6 +108,11 @@
 
 ## NVIDIA
 
+- **2026-09-16** [How to Use AI Agents to Prepare 3D Scenes for Simulation](https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/)
+
+  NVIDIAは、AIエージェントで3Dシーンを整え、OmniverseやIsaac Sim向けにシミュレーション対応させる手順を公開した。
+
+  出典: NVIDIA / 状態: `updated` / simulation / world-model / synthetic-data / robotics
 - **2026-08-06** [Into the Omniverse: How Open World Models Push the Frontier of Physical AI](https://blogs.nvidia.com/blog/open-world-models-physical-ai/)
 
   NVIDIAは、Cosmos 3を軸に世界モデル、Omniverseベースのシミュレーション、合成データ生成を組み合わせ、ロボット、自動運転、映像AI向けの物理AI開発を整理した。
@@ -121,6 +154,14 @@
   X-62 VISTAのミッションシステム改修で、AI開発と有人研究の接続を進める試験結果が示された。
 
   出典: U.S. Air Force / 状態: `flight-test` / air-combat-ai / mission-autonomy / flight-test
+
+## SoftBank Corp.
+
+- **2026-10-01** [GA-ASI Demonstrates Disaster Relief Comms System With SoftBank Corp.](https://www.ga-asi.com/ga-asi-demonstrates-disaster-relief-comms-system-with-softbank-corp)
+
+  GA-ASIはSoftBank Corp.の災害復旧向け通信ペイロードをMQ-9Bで実演し、機上中継局としての利用可能性を示した。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / communications / flight-test
 
 ## Xtreme Aerial Concepts
 
