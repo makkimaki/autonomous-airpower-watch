@@ -22,6 +22,11 @@
 
 ## autonomous-driving
 
+- **2026-10-08** [Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents](https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/)
+
+  NVIDIAは、フロンティアAIエージェントでシミュレーション作業を組み立てる例を示した。人型ロボット、車両検証、デジタルツインのセンサー整合などをOmniverse系の部品で回す使い方を紹介している。
+
+  出典: NVIDIA / 状態: `updated` / simulation / robotics / autonomous-driving / digital-twin
 - **2026-08-04** [NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use](https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/)
 
   NVIDIAは、Alpamayo 2 Superを商用利用向けの開放モデルとして公開し、自動運転車の推論と閉ループ検証に使う学習・評価の流れを示した。
@@ -89,6 +94,11 @@
 
 ## digital-twin
 
+- **2026-10-08** [Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents](https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/)
+
+  NVIDIAは、フロンティアAIエージェントでシミュレーション作業を組み立てる例を示した。人型ロボット、車両検証、デジタルツインのセンサー整合などをOmniverse系の部品で回す使い方を紹介している。
+
+  出典: NVIDIA / 状態: `updated` / simulation / robotics / autonomous-driving / digital-twin
 - **2026-08-06** [Into the Omniverse: How Open World Models Push the Frontier of Physical AI](https://blogs.nvidia.com/blog/open-world-models-physical-ai/)
 
   NVIDIAは、Cosmos 3を軸に世界モデル、Omniverseベースのシミュレーション、合成データ生成を組み合わせ、ロボット、自動運転、映像AI向けの物理AI開発を整理した。
@@ -307,6 +317,16 @@
 
 ## robotics
 
+- **2026-10-08** [5 Steps to Create SimReady Assets for Robotics with Frontier AI Models](https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/)
+
+  NVIDIAは、フロンティアAIモデルでロボット用のSimReady資産を作る5段階の手順を示した。ABB YuMiの例を使い、CAD資産をOpenUSD化してOmniverseとIsaac Simで扱える形に整える流れを説明している。
+
+  出典: NVIDIA / 状態: `updated` / simulation / robotics / synthetic-data / sim-to-real
+- **2026-10-08** [Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents](https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/)
+
+  NVIDIAは、フロンティアAIエージェントでシミュレーション作業を組み立てる例を示した。人型ロボット、車両検証、デジタルツインのセンサー整合などをOmniverse系の部品で回す使い方を紹介している。
+
+  出典: NVIDIA / 状態: `updated` / simulation / robotics / autonomous-driving / digital-twin
 - **2026-09-16** [How to Use AI Agents to Prepare 3D Scenes for Simulation](https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/)
 
   NVIDIAは、AIエージェントで3Dシーンを整え、OmniverseやIsaac Sim向けにシミュレーション対応させる手順を公開した。
@@ -328,6 +348,11 @@
 
 ## sim-to-real
 
+- **2026-10-08** [5 Steps to Create SimReady Assets for Robotics with Frontier AI Models](https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/)
+
+  NVIDIAは、フロンティアAIモデルでロボット用のSimReady資産を作る5段階の手順を示した。ABB YuMiの例を使い、CAD資産をOpenUSD化してOmniverseとIsaac Simで扱える形に整える流れを説明している。
+
+  出典: NVIDIA / 状態: `updated` / simulation / robotics / synthetic-data / sim-to-real
 - **2026-07-15** [Japan’s Robotics and Manufacturing Leaders Build on NVIDIA Cosmos to Advance Physical AI Frontier](https://nvidianews.nvidia.com/news/japans-robotics-and-manufacturing-leaders-build-on-nvidia-cosmos-to-advance-physical-ai-frontier)
 
   NVIDIAは、日本の物理AI関係者がCosmos、Isaac、Metropolis、Jetsonを基盤に世界モデルとロボット開発を進めていると発表した。Fujitsuの協調制御基盤構想や、Cosmos 3 Edge、Omniverse NuRec、Newton、Isaac Simを使うシミュレーションと実機移行の取り組みが含まれる。
@@ -336,6 +361,16 @@
 
 ## simulation
 
+- **2026-10-08** [5 Steps to Create SimReady Assets for Robotics with Frontier AI Models](https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/)
+
+  NVIDIAは、フロンティアAIモデルでロボット用のSimReady資産を作る5段階の手順を示した。ABB YuMiの例を使い、CAD資産をOpenUSD化してOmniverseとIsaac Simで扱える形に整える流れを説明している。
+
+  出典: NVIDIA / 状態: `updated` / simulation / robotics / synthetic-data / sim-to-real
+- **2026-10-08** [Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents](https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/)
+
+  NVIDIAは、フロンティアAIエージェントでシミュレーション作業を組み立てる例を示した。人型ロボット、車両検証、デジタルツインのセンサー整合などをOmniverse系の部品で回す使い方を紹介している。
+
+  出典: NVIDIA / 状態: `updated` / simulation / robotics / autonomous-driving / digital-twin
 - **2026-10-05** [GA-ASI Teams With U.S. Navy To Demonstrate Collaborative Autonomous Mission Planning for Simulated Battle](https://www.ga-asi.com/ga-asi-teams-with-us-navy-to-demonstrate-collaborative-autonomous-mission-planning-for-simulated-battle)
 
   GA-ASIと米海軍はMQ-20 Avengerを使った協調自律ミッション計画のデモを示し、LVC環境と機上ソフトを接続する運用実証を進めた。
@@ -384,6 +419,11 @@
 
 ## solicitation
 
+- **2026-10-07** [防衛省版SBIR・令和8年度トピック説明会](https://www.mod.go.jp/atla/sbir/20261014.html)
+
+  防衛装備庁は、防衛省版SBIRの令和8年度トピック説明会を案内した。10月14日の説明会参加条件と申込方法を示し、公募トピックに関心を持つスタートアップ向けの案内としている。
+
+  出典: 防衛装備庁 / 状態: `solicitation` / solicitation
 - **2026-10-02** [防衛省版SBIR : 公募](https://www.mod.go.jp/atla/sbir/open-call.html)
 
   防衛装備庁は防衛省版SBIRの公募を開始し、小型UAV、迎撃用UAV、海上警戒監視AIなど7テーマを示した。
@@ -392,6 +432,11 @@
 
 ## synthetic-data
 
+- **2026-10-08** [5 Steps to Create SimReady Assets for Robotics with Frontier AI Models](https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/)
+
+  NVIDIAは、フロンティアAIモデルでロボット用のSimReady資産を作る5段階の手順を示した。ABB YuMiの例を使い、CAD資産をOpenUSD化してOmniverseとIsaac Simで扱える形に整える流れを説明している。
+
+  出典: NVIDIA / 状態: `updated` / simulation / robotics / synthetic-data / sim-to-real
 - **2026-09-16** [How to Use AI Agents to Prepare 3D Scenes for Simulation](https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/)
 
   NVIDIAは、AIエージェントで3Dシーンを整え、OmniverseやIsaac Sim向けにシミュレーション対応させる手順を公開した。
