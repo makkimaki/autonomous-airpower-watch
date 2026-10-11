@@ -20,6 +20,16 @@
 
 ## Isaac Sim
 
+- **2026-10-08** [5 Steps to Create SimReady Assets for Robotics with Frontier AI Models](https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/)
+
+  NVIDIAは、フロンティアAIモデルでロボット用のSimReady資産を作る5段階の手順を示した。ABB YuMiの例を使い、CAD資産をOpenUSD化してOmniverseとIsaac Simで扱える形に整える流れを説明している。
+
+  出典: NVIDIA / 状態: `updated` / simulation / robotics / synthetic-data / sim-to-real
+- **2026-10-08** [Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents](https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/)
+
+  NVIDIAは、フロンティアAIエージェントでシミュレーション作業を組み立てる例を示した。人型ロボット、車両検証、デジタルツインのセンサー整合などをOmniverse系の部品で回す使い方を紹介している。
+
+  出典: NVIDIA / 状態: `updated` / simulation / robotics / autonomous-driving / digital-twin
 - **2026-09-16** [How to Use AI Agents to Prepare 3D Scenes for Simulation](https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/)
 
   NVIDIAは、AIエージェントで3Dシーンを整え、OmniverseやIsaac Sim向けにシミュレーション対応させる手順を公開した。
@@ -41,6 +51,16 @@
 
 ## NVIDIA Omniverse
 
+- **2026-10-08** [5 Steps to Create SimReady Assets for Robotics with Frontier AI Models](https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/)
+
+  NVIDIAは、フロンティアAIモデルでロボット用のSimReady資産を作る5段階の手順を示した。ABB YuMiの例を使い、CAD資産をOpenUSD化してOmniverseとIsaac Simで扱える形に整える流れを説明している。
+
+  出典: NVIDIA / 状態: `updated` / simulation / robotics / synthetic-data / sim-to-real
+- **2026-10-08** [Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents](https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/)
+
+  NVIDIAは、フロンティアAIエージェントでシミュレーション作業を組み立てる例を示した。人型ロボット、車両検証、デジタルツインのセンサー整合などをOmniverse系の部品で回す使い方を紹介している。
+
+  出典: NVIDIA / 状態: `updated` / simulation / robotics / autonomous-driving / digital-twin
 - **2026-09-16** [How to Use AI Agents to Prepare 3D Scenes for Simulation](https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/)
 
   NVIDIAは、AIエージェントで3Dシーンを整え、OmniverseやIsaac Sim向けにシミュレーション対応させる手順を公開した。

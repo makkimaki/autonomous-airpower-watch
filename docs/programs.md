@@ -136,6 +136,14 @@
 
   出典: General Atomics Aeronautical Systems / 状態: `updated` / UAV / mission-autonomy / exercise
 
+## Isaac Sim
+
+- **2026-10-08** [5 Steps to Create SimReady Assets for Robotics with Frontier AI Models](https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/)
+
+  NVIDIAは、フロンティアAIモデルでロボット用のSimReady資産を作る5段階の手順を示した。ABB YuMiの例を使い、CAD資産をOpenUSD化してOmniverseとIsaac Simで扱える形に整える流れを説明している。
+
+  出典: NVIDIA / 状態: `updated` / simulation / robotics / synthetic-data / sim-to-real
+
 ## MQ-20 Avenger
 
 - **2026-10-05** [GA-ASI Teams With U.S. Navy To Demonstrate Collaborative Autonomous Mission Planning for Simulated Battle](https://www.ga-asi.com/ga-asi-teams-with-us-navy-to-demonstrate-collaborative-autonomous-mission-planning-for-simulated-battle)
@@ -191,8 +199,26 @@
 
   出典: NVIDIA / 状態: `updated` / world-model / synthetic-data / simulation / physical-ai
 
+## NVIDIA Isaac
+
+- **2026-10-08** [Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents](https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/)
+
+  NVIDIAは、フロンティアAIエージェントでシミュレーション作業を組み立てる例を示した。人型ロボット、車両検証、デジタルツインのセンサー整合などをOmniverse系の部品で回す使い方を紹介している。
+
+  出典: NVIDIA / 状態: `updated` / simulation / robotics / autonomous-driving / digital-twin
+
 ## NVIDIA Omniverse
 
+- **2026-10-08** [5 Steps to Create SimReady Assets for Robotics with Frontier AI Models](https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/)
+
+  NVIDIAは、フロンティアAIモデルでロボット用のSimReady資産を作る5段階の手順を示した。ABB YuMiの例を使い、CAD資産をOpenUSD化してOmniverseとIsaac Simで扱える形に整える流れを説明している。
+
+  出典: NVIDIA / 状態: `updated` / simulation / robotics / synthetic-data / sim-to-real
+- **2026-10-08** [Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents](https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/)
+
+  NVIDIAは、フロンティアAIエージェントでシミュレーション作業を組み立てる例を示した。人型ロボット、車両検証、デジタルツインのセンサー整合などをOmniverse系の部品で回す使い方を紹介している。
+
+  出典: NVIDIA / 状態: `updated` / simulation / robotics / autonomous-driving / digital-twin
 - **2026-09-16** [How to Use AI Agents to Prepare 3D Scenes for Simulation](https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/)
 
   NVIDIAは、AIエージェントで3Dシーンを整え、OmniverseやIsaac Sim向けにシミュレーション対応させる手順を公開した。
@@ -246,6 +272,11 @@
 
 ## 防衛省版SBIR
 
+- **2026-10-07** [防衛省版SBIR・令和8年度トピック説明会](https://www.mod.go.jp/atla/sbir/20261014.html)
+
+  防衛装備庁は、防衛省版SBIRの令和8年度トピック説明会を案内した。10月14日の説明会参加条件と申込方法を示し、公募トピックに関心を持つスタートアップ向けの案内としている。
+
+  出典: 防衛装備庁 / 状態: `solicitation` / solicitation
 - **2026-10-02** [防衛省版SBIR : 公募](https://www.mod.go.jp/atla/sbir/open-call.html)
 
   防衛装備庁は防衛省版SBIRの公募を開始し、小型UAV、迎撃用UAV、海上警戒監視AIなど7テーマを示した。

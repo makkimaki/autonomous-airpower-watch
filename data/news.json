@@ -1,5 +1,122 @@
 [
   {
+    "id": "2026-10-08-nvidia-simready-assets-robotics-frontier-ai-models",
+    "title": "5 Steps to Create SimReady Assets for Robotics with Frontier AI Models",
+    "date": "2026-10-08",
+    "collected_at": "2026-10-10",
+    "url": "https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/",
+    "source": "NVIDIA",
+    "source_type": "company",
+    "countries": ["US"],
+    "domains": ["autonomous-driving", "mobile-robotics", "robotics"],
+    "organizations": ["NVIDIA", "ABB Robotics"],
+    "companies": ["NVIDIA", "ABB"],
+    "programs": ["NVIDIA Omniverse", "Isaac Sim"],
+    "aircraft": [],
+    "models": [],
+    "simulators": ["NVIDIA Omniverse", "Isaac Sim"],
+    "topics": ["simulation", "robotics", "synthetic-data", "sim-to-real"],
+    "status": "updated",
+    "summary_ja": "NVIDIAは、フロンティアAIモデルでロボット用のSimReady資産を作る5段階の手順を示した。ABB YuMiの例を使い、CAD資産をOpenUSD化してOmniverseとIsaac Simで扱える形に整える流れを説明している。",
+    "confidence": "primary",
+    "citation_scan_status": "scanned",
+    "citations": [
+      {
+        "url": "https://nvidia.github.io/simready-foundation/",
+        "title": "SimReady Foundation",
+        "type": "reference"
+      },
+      {
+        "url": "https://github.com/NVIDIA/skills/tree/main/skills/omniverse-cad-to-simready",
+        "title": "CAD-to-SimReady",
+        "type": "reference"
+      },
+      {
+        "url": "https://developer.nvidia.com/omniverse",
+        "title": "NVIDIA Omniverse Libraries | NVIDIA Developer",
+        "type": "self"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/glossary/simready/",
+        "title": "What Is SimReady?",
+        "type": "reference"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-08-nvidia-frontier-ai-agents-simulations",
+    "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+    "date": "2026-10-08",
+    "collected_at": "2026-10-10",
+    "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+    "source": "NVIDIA",
+    "source_type": "company",
+    "countries": ["US"],
+    "domains": ["autonomous-driving", "mobile-robotics", "robotics"],
+    "organizations": ["NVIDIA"],
+    "companies": ["NVIDIA"],
+    "programs": ["NVIDIA Omniverse", "NVIDIA Isaac"],
+    "aircraft": [],
+    "models": [],
+    "simulators": ["NVIDIA Omniverse", "Isaac Sim"],
+    "topics": ["simulation", "robotics", "autonomous-driving", "digital-twin"],
+    "status": "updated",
+    "summary_ja": "NVIDIAは、フロンティアAIエージェントでシミュレーション作業を組み立てる例を示した。人型ロボット、車両検証、デジタルツインのセンサー整合などをOmniverse系の部品で回す使い方を紹介している。",
+    "confidence": "primary",
+    "citation_scan_status": "scanned",
+    "citations": [
+      {
+        "url": "https://developer.nvidia.com/omniverse",
+        "title": "NVIDIA Omniverse Libraries | NVIDIA Developer",
+        "type": "self"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/glossary/simready/",
+        "title": "What Is SimReady?",
+        "type": "reference"
+      },
+      {
+        "url": "https://developer.nvidia.com/isaac",
+        "title": "NVIDIA Isaac",
+        "type": "self"
+      }
+    ]
+  },
+  {
+    "id": "2026-10-07-atla-sbir-topic-briefing",
+    "title": "防衛省版SBIR・令和8年度トピック説明会",
+    "date": "2026-10-07",
+    "collected_at": "2026-10-10",
+    "url": "https://www.mod.go.jp/atla/sbir/20261014.html",
+    "source": "防衛装備庁",
+    "source_type": "government",
+    "countries": ["JP"],
+    "domains": ["airpower"],
+    "organizations": ["防衛装備庁"],
+    "companies": [],
+    "programs": ["防衛省版SBIR"],
+    "aircraft": [],
+    "models": [],
+    "simulators": [],
+    "topics": ["solicitation"],
+    "status": "solicitation",
+    "summary_ja": "防衛装備庁は、防衛省版SBIRの令和8年度トピック説明会を案内した。10月14日の説明会参加条件と申込方法を示し、公募トピックに関心を持つスタートアップ向けの案内としている。",
+    "confidence": "primary",
+    "citation_scan_status": "partial",
+    "citations": [
+      {
+        "url": "https://www.mod.go.jp/atla/sbir/20261014.html",
+        "title": "防衛省版SBIR・令和8年度トピック説明会",
+        "type": "source"
+      },
+      {
+        "url": "https://www.mod.go.jp/atla/sbir/open-call.html",
+        "title": "防衛省版SBIR : 公募",
+        "type": "related"
+      }
+    ]
+  },
+  {
     "id": "2026-09-30-gaasi-seaguardian-uas-whidbey-island",
     "title": "U.S. Navy Evaluates SeaGuardian UAS at Whidbey Island",
     "date": "2026-09-30",
