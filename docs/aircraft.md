@@ -44,6 +44,22 @@
 
   出典: U.S. Air Force / 状態: `contracted` / CCA / mission-autonomy / contract / production
 
+## Gray Eagle 25M
+
+- **2026-10-12** [Arizona To Become First Gray Eagle Company in the ARNG](https://www.ga-asi.com/arizona-to-become-first-gray-eagle-company-in-the-arng)
+
+  GA-ASIは、アリゾナ州陸軍州兵がGray Eagle 25Mを初めて運用する州になる計画を公表した。2027年9月の納入予定と部隊編成の見通しを示し、部隊配備の段階にあることを明確にしている。
+
+  出典: General Atomics Aeronautical Systems / 状態: `announced` / UAV / force-structure / fielding
+
+## MQ-1C Gray Eagle ER
+
+- **2026-10-15** [GA-ASI Completes Flight Test of New ESM System on Gray Eagle UAS](https://www.ga-asi.com/ga-asi-completes-flight-test-of-new-esm-system-on-gray-eagle-uas)
+
+  GA-ASIは、Gray Eagle ERに搭載したSNC製ESMの飛行試験完了を発表した。長距離探知と収集を加える近代化であり、電子戦関連の機能統合の進展として記録できる。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / electronic-warfare / flight-test
+
 ## MQ-20 Avenger
 
 - **2026-10-05** [GA-ASI Teams With U.S. Navy To Demonstrate Collaborative Autonomous Mission Planning for Simulated Battle](https://www.ga-asi.com/ga-asi-teams-with-us-navy-to-demonstrate-collaborative-autonomous-mission-planning-for-simulated-battle)

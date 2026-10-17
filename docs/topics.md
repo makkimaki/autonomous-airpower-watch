@@ -22,6 +22,16 @@
 
 ## autonomous-driving
 
+- **2026-10-16** [Mercedes-Benz and NVIDIA Expand Strategic Partnership to Advance Safe Highly Automated Driving in the Next Decade](https://nvidianews.nvidia.com/news/mercedes-benz-and-nvidia-expand-strategic-partnership-to-advance-safe-highly-automated-driving-in-the-next-decade)
+
+  Mercedes-BenzはNVIDIAとの戦略提携を拡大し、次世代の運転支援・自動運転システムの共同開発を進めると発表した。車両工程のシミュレーション活用にも触れるが、未公表の能力は加えない。
+
+  出典: NVIDIA / 状態: `announced` / autonomous-driving / partnership / simulation / vehicle-platform
+- **2026-10-15** [Volvo Cars and NVIDIA Expand Partnership to Advance Safe Automated Driving](https://nvidianews.nvidia.com/news/volvo-cars-and-nvidia-expand-partnership-to-advance-safe-automated-driving)
+
+  Volvo CarsはNVIDIAとの提携拡大を発表し、次世代車両で安全な自動運転を支える計算基盤を強化するとした。Hyperion、Halos、Alpamayo Stackを使うが、性能の断定は避けている。
+
+  出典: NVIDIA / 状態: `announced` / autonomous-driving / partnership / vehicle-platform
 - **2026-10-08** [Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents](https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/)
 
   NVIDIAは、フロンティアAIエージェントでシミュレーション作業を組み立てる例を示した。人型ロボット、車両検証、デジタルツインのセンサー整合などをOmniverse系の部品で回す使い方を紹介している。
@@ -115,6 +125,14 @@
 
   出典: CARLA Simulator / 状態: `updated` / simulation / world-model / digital-twin / ROS2 / synthetic-data
 
+## electronic-warfare
+
+- **2026-10-15** [GA-ASI Completes Flight Test of New ESM System on Gray Eagle UAS](https://www.ga-asi.com/ga-asi-completes-flight-test-of-new-esm-system-on-gray-eagle-uas)
+
+  GA-ASIは、Gray Eagle ERに搭載したSNC製ESMの飛行試験完了を発表した。長距離探知と収集を加える近代化であり、電子戦関連の機能統合の進展として記録できる。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / electronic-warfare / flight-test
+
 ## exercise
 
 - **2026-09-30** [U.S. Navy Evaluates SeaGuardian UAS at Whidbey Island](https://www.ga-asi.com/us-navy-evaluates-seaguardian-uas-at-whidbey-island)
@@ -123,8 +141,21 @@
 
   出典: General Atomics Aeronautical Systems / 状態: `updated` / UAV / mission-autonomy / exercise
 
+## fielding
+
+- **2026-10-12** [Arizona To Become First Gray Eagle Company in the ARNG](https://www.ga-asi.com/arizona-to-become-first-gray-eagle-company-in-the-arng)
+
+  GA-ASIは、アリゾナ州陸軍州兵がGray Eagle 25Mを初めて運用する州になる計画を公表した。2027年9月の納入予定と部隊編成の見通しを示し、部隊配備の段階にあることを明確にしている。
+
+  出典: General Atomics Aeronautical Systems / 状態: `announced` / UAV / force-structure / fielding
+
 ## flight-test
 
+- **2026-10-15** [GA-ASI Completes Flight Test of New ESM System on Gray Eagle UAS](https://www.ga-asi.com/ga-asi-completes-flight-test-of-new-esm-system-on-gray-eagle-uas)
+
+  GA-ASIは、Gray Eagle ERに搭載したSNC製ESMの飛行試験完了を発表した。長距離探知と収集を加える近代化であり、電子戦関連の機能統合の進展として記録できる。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / electronic-warfare / flight-test
 - **2026-10-01** [GA-ASI Demonstrates Disaster Relief Comms System With SoftBank Corp.](https://www.ga-asi.com/ga-asi-demonstrates-disaster-relief-comms-system-with-softbank-corp)
 
   GA-ASIはSoftBank Corp.の災害復旧向け通信ペイロードをMQ-9Bで実演し、機上中継局としての利用可能性を示した。
@@ -155,6 +186,14 @@
   DARPAは、AIアルゴリズムがX-62A VISTAを操縦し、有人F-16と空中戦試験を行ったACEプログラムの成果を公表した。
 
   出典: DARPA / 状態: `flight-test` / air-combat-ai / human-machine-teaming / flight-test
+
+## force-structure
+
+- **2026-10-12** [Arizona To Become First Gray Eagle Company in the ARNG](https://www.ga-asi.com/arizona-to-become-first-gray-eagle-company-in-the-arng)
+
+  GA-ASIは、アリゾナ州陸軍州兵がGray Eagle 25Mを初めて運用する州になる計画を公表した。2027年9月の納入予定と部隊編成の見通しを示し、部隊配備の段階にあることを明確にしている。
+
+  出典: General Atomics Aeronautical Systems / 状態: `announced` / UAV / force-structure / fielding
 
 ## human-machine-teaming
 
@@ -250,6 +289,16 @@
 
 ## partnership
 
+- **2026-10-16** [Mercedes-Benz and NVIDIA Expand Strategic Partnership to Advance Safe Highly Automated Driving in the Next Decade](https://nvidianews.nvidia.com/news/mercedes-benz-and-nvidia-expand-strategic-partnership-to-advance-safe-highly-automated-driving-in-the-next-decade)
+
+  Mercedes-BenzはNVIDIAとの戦略提携を拡大し、次世代の運転支援・自動運転システムの共同開発を進めると発表した。車両工程のシミュレーション活用にも触れるが、未公表の能力は加えない。
+
+  出典: NVIDIA / 状態: `announced` / autonomous-driving / partnership / simulation / vehicle-platform
+- **2026-10-15** [Volvo Cars and NVIDIA Expand Partnership to Advance Safe Automated Driving](https://nvidianews.nvidia.com/news/volvo-cars-and-nvidia-expand-partnership-to-advance-safe-automated-driving)
+
+  Volvo CarsはNVIDIAとの提携拡大を発表し、次世代車両で安全な自動運転を支える計算基盤を強化するとした。Hyperion、Halos、Alpamayo Stackを使うが、性能の断定は避けている。
+
+  出典: NVIDIA / 状態: `announced` / autonomous-driving / partnership / vehicle-platform
 - **2026-09-23** [Strengthens Security Partnership with Taiwan through Altius milestones](https://www.anduril.com/news/strengthens-security-partnership-with-taiwan-through-altius-milestones)
 
   Andurilは台湾向けAltius関連の進捗と現地投資拡大を公表し、無人機協力の継続を示した。
@@ -361,6 +410,11 @@
 
 ## simulation
 
+- **2026-10-16** [Mercedes-Benz and NVIDIA Expand Strategic Partnership to Advance Safe Highly Automated Driving in the Next Decade](https://nvidianews.nvidia.com/news/mercedes-benz-and-nvidia-expand-strategic-partnership-to-advance-safe-highly-automated-driving-in-the-next-decade)
+
+  Mercedes-BenzはNVIDIAとの戦略提携を拡大し、次世代の運転支援・自動運転システムの共同開発を進めると発表した。車両工程のシミュレーション活用にも触れるが、未公表の能力は加えない。
+
+  出典: NVIDIA / 状態: `announced` / autonomous-driving / partnership / simulation / vehicle-platform
 - **2026-10-08** [5 Steps to Create SimReady Assets for Robotics with Frontier AI Models](https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/)
 
   NVIDIAは、フロンティアAIモデルでロボット用のSimReady資産を作る5段階の手順を示した。ABB YuMiの例を使い、CAD資産をOpenUSD化してOmniverseとIsaac Simで扱える形に整える流れを説明している。
@@ -475,6 +529,16 @@
 
 ## UAV
 
+- **2026-10-15** [GA-ASI Completes Flight Test of New ESM System on Gray Eagle UAS](https://www.ga-asi.com/ga-asi-completes-flight-test-of-new-esm-system-on-gray-eagle-uas)
+
+  GA-ASIは、Gray Eagle ERに搭載したSNC製ESMの飛行試験完了を発表した。長距離探知と収集を加える近代化であり、電子戦関連の機能統合の進展として記録できる。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / electronic-warfare / flight-test
+- **2026-10-12** [Arizona To Become First Gray Eagle Company in the ARNG](https://www.ga-asi.com/arizona-to-become-first-gray-eagle-company-in-the-arng)
+
+  GA-ASIは、アリゾナ州陸軍州兵がGray Eagle 25Mを初めて運用する州になる計画を公表した。2027年9月の納入予定と部隊編成の見通しを示し、部隊配備の段階にあることを明確にしている。
+
+  出典: General Atomics Aeronautical Systems / 状態: `announced` / UAV / force-structure / fielding
 - **2026-10-05** [GA-ASI Teams With U.S. Navy To Demonstrate Collaborative Autonomous Mission Planning for Simulated Battle](https://www.ga-asi.com/ga-asi-teams-with-us-navy-to-demonstrate-collaborative-autonomous-mission-planning-for-simulated-battle)
 
   GA-ASIと米海軍はMQ-20 Avengerを使った協調自律ミッション計画のデモを示し、LVC環境と機上ソフトを接続する運用実証を進めた。
@@ -538,6 +602,19 @@
   Andurilは台湾向けAltius関連の進捗と現地投資拡大を公表し、無人機協力の継続を示した。
 
   出典: Anduril / 状態: `updated` / UAV / partnership / updated
+
+## vehicle-platform
+
+- **2026-10-16** [Mercedes-Benz and NVIDIA Expand Strategic Partnership to Advance Safe Highly Automated Driving in the Next Decade](https://nvidianews.nvidia.com/news/mercedes-benz-and-nvidia-expand-strategic-partnership-to-advance-safe-highly-automated-driving-in-the-next-decade)
+
+  Mercedes-BenzはNVIDIAとの戦略提携を拡大し、次世代の運転支援・自動運転システムの共同開発を進めると発表した。車両工程のシミュレーション活用にも触れるが、未公表の能力は加えない。
+
+  出典: NVIDIA / 状態: `announced` / autonomous-driving / partnership / simulation / vehicle-platform
+- **2026-10-15** [Volvo Cars and NVIDIA Expand Partnership to Advance Safe Automated Driving](https://nvidianews.nvidia.com/news/volvo-cars-and-nvidia-expand-partnership-to-advance-safe-automated-driving)
+
+  Volvo CarsはNVIDIAとの提携拡大を発表し、次世代車両で安全な自動運転を支える計算基盤を強化するとした。Hyperion、Halos、Alpamayo Stackを使うが、性能の断定は避けている。
+
+  出典: NVIDIA / 状態: `announced` / autonomous-driving / partnership / vehicle-platform
 
 ## world-model
 
