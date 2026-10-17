@@ -2,6 +2,26 @@
 
 公開一次情報を中心に、CCA、UAV、航空戦闘AI、自律システム向け世界モデルとシミュレータの動きを新しい順に掲載します。
 
+- **2026-10-16** [Mercedes-Benz and NVIDIA Expand Strategic Partnership to Advance Safe Highly Automated Driving in the Next Decade](https://nvidianews.nvidia.com/news/mercedes-benz-and-nvidia-expand-strategic-partnership-to-advance-safe-highly-automated-driving-in-the-next-decade)
+
+  Mercedes-BenzはNVIDIAとの戦略提携を拡大し、次世代の運転支援・自動運転システムの共同開発を進めると発表した。車両工程のシミュレーション活用にも触れるが、未公表の能力は加えない。
+
+  出典: NVIDIA / 状態: `announced` / autonomous-driving / partnership / simulation / vehicle-platform
+- **2026-10-15** [Volvo Cars and NVIDIA Expand Partnership to Advance Safe Automated Driving](https://nvidianews.nvidia.com/news/volvo-cars-and-nvidia-expand-partnership-to-advance-safe-automated-driving)
+
+  Volvo CarsはNVIDIAとの提携拡大を発表し、次世代車両で安全な自動運転を支える計算基盤を強化するとした。Hyperion、Halos、Alpamayo Stackを使うが、性能の断定は避けている。
+
+  出典: NVIDIA / 状態: `announced` / autonomous-driving / partnership / vehicle-platform
+- **2026-10-15** [GA-ASI Completes Flight Test of New ESM System on Gray Eagle UAS](https://www.ga-asi.com/ga-asi-completes-flight-test-of-new-esm-system-on-gray-eagle-uas)
+
+  GA-ASIは、Gray Eagle ERに搭載したSNC製ESMの飛行試験完了を発表した。長距離探知と収集を加える近代化であり、電子戦関連の機能統合の進展として記録できる。
+
+  出典: General Atomics Aeronautical Systems / 状態: `flight-test` / UAV / electronic-warfare / flight-test
+- **2026-10-12** [Arizona To Become First Gray Eagle Company in the ARNG](https://www.ga-asi.com/arizona-to-become-first-gray-eagle-company-in-the-arng)
+
+  GA-ASIは、アリゾナ州陸軍州兵がGray Eagle 25Mを初めて運用する州になる計画を公表した。2027年9月の納入予定と部隊編成の見通しを示し、部隊配備の段階にあることを明確にしている。
+
+  出典: General Atomics Aeronautical Systems / 状態: `announced` / UAV / force-structure / fielding
 - **2026-10-08** [5 Steps to Create SimReady Assets for Robotics with Frontier AI Models](https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/)
 
   NVIDIAは、フロンティアAIモデルでロボット用のSimReady資産を作る5段階の手順を示した。ABB YuMiの例を使い、CAD資産をOpenUSD化してOmniverseとIsaac Simで扱える形に整える流れを説明している。
